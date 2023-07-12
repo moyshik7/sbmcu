@@ -69,6 +69,18 @@
 .category .item a:hover {
     background-color: #808080;
 }
+.category .panel{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+.category .panel img {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
 
 
 .bg_red {
@@ -85,6 +97,9 @@
 }
 .bg_yellow {
     background-color: #FBBC05;
+}
+.bg_gray {
+    background-color: #404040;
 }
 
 .section {
