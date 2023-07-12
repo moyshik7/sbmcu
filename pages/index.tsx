@@ -44,86 +44,40 @@ const HomePage = () => {
         </section>
 
         <main className={styles.content}>
-  
-            <section className={styles.section} id="donate">
-                <h2>Donate Blood</h2>
-                <p>Help save lives by donating blood. Your contribution can make a difference.</p>
-                <button>Donate Now</button>
-            </section>
-  
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
-            <section className={styles.section} id="request">
-                <h2>Request Blood</h2>
-                <p>If you or someone you know requires blood, please fill out the request form, and we will do our best to assist you.</p>
-                <button>Request Blood</button>
-                <p>Address: Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</p>
-                <p>Phone: +8801716858723</p>
-                <p>We are open 24/7 for picking up blood for free. We do not charge extra for the blood we provide.</p>
-            </section>
+
+            <div className={styles.category}>
+                <div className={`${styles.item} ${styles.bg_red}`}>
+                    <h2>Donate Blood</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div className={styles.button_holder}>
+                        <a href="#">Donate Now</a>
+                    </div>
+                </div>
+                <div className={`${styles.item} ${styles.bg_purple}`}>
+                    <h2>Receive Blood</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div className={styles.button_holder}>
+                        <a href="#">Receive Now</a>
+                    </div>
+                </div>
+            </div>
             
+            <div className={styles.category}>
+                <div className={`${styles.item} ${styles.bg_yellow}`}>
+                    <h2>Contact Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div className={styles.button_holder}>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div className={`${styles.item} ${styles.bg_blue}`}>
+                    <h2>Join Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div className={styles.button_holder}>
+                        <a href="#">Become a Member</a>
+                    </div>
+                </div>
+            </div>
         </main>
   
         <footer className={styles.footer}>
