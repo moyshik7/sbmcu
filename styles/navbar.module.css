@@ -37,6 +37,8 @@
     transition: all 0.2s;
     min-height: calc(100vh - 60px);
     background-color: rgba(48, 48, 48, 0.8);
+    -webkit-mask-image: linear-gradient(180deg, rgba(23,24,26,1) 0%, rgba(23,24,26,1) 70%, rgba(23,24,26,0) 100%);
+    mask-image: linear-gradient(180deg, rgba(23,24,26,1) 0%, rgba(23,24,26,1) 70%, rgba(23,24,26,0) 100%);
 }
 .nav__menu_list.active{
     right: 0;
@@ -48,14 +50,14 @@
 }
   
 .nav__link:hover{
-     font-weight: bold;
+    font-weight: bold;
 }
   
 .center{
-      min-height: 600px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (min-width: 868px) {

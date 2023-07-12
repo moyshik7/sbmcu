@@ -33,9 +33,7 @@ const HomePage = () => {
 
         <div className={styles.spacer}></div>
 
-        <header className={styles.container + " " + styles.FixedNavbar}>
-            <Navbar />
-        </header>
+        <Navbar />
 
         <Slideshow />
 
