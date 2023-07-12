@@ -40,7 +40,7 @@ const Navbar = () => {
         >
           <i className="material-icons">menu</i>
         </div>
-        <div className={`${navActive ? styles.active : " "} ${styles.nav__menu_list}`}>
+        <div className={`${navActive ? styles.active : ""} ${styles.nav__menu_list}`}>
           {MENU_LIST.map((menu, idx) => (
             <div
               onClick={() => {
