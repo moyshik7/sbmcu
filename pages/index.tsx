@@ -61,7 +61,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-            
+
             <div className={styles.category}>
                 <div className={`${styles.item} ${styles.bg_yellow}`}>
                     <h2>Contact Us</h2>

@@ -1,6 +1,7 @@
 .slide {
     display: block;
     width: 100%;
+    z-index: -2;
 }
 .slide img {
     object-fit: cover;
