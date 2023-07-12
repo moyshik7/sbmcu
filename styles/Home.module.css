@@ -1,0 +1,81 @@
+.main {
+  text-decoration: none;
+  background-color: #303030;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+.main a {
+  text-decoration: none;
+}
+.container {
+  background-color: #303030;
+  padding: 10px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+  color: white;
+  font-family: 'Ysabeau Infant', sans-serif;
+  display: block;
+}
+
+.over_image {
+  margin-top: -200px;
+  margin-bottom: 150px;
+  color: white;
+  opacity: 1;
+  padding: 20px;
+}
+
+.content {
+  margin: 40px auto;
+  padding: 0 20px;
+  color: white;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.footer {
+  background-color: #17181a;
+  padding: 20px;
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+  -webkit-mask-image: linear-gradient(0deg, rgba(23,24,26,1) 0%, rgba(23,24,26,1) 50%, rgba(23,24,26,0) 100%);
+  mask-image: linear-gradient(0deg, rgba(23,24,26,1) 0%, rgba(23,24,26,1) 50%, rgba(23,24,26,0) 100%);
+}
+.footer a {
+  text-decoration: none;
+  color: pink;
+}
+.footer .socialLinks {
+  display: flex;
+  
+  align-items: center;
+  flex-direction: column;
+}
+.spacer {
+  height: 75px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .over_image {
+        margin-top: -100px;
+        margin-bottom: 50px;
+        color: white;
+        opacity: 1;
+        padding: 20px;
+    }
+    .spacer {
+      height: 60px;
+      width: 100%;
+    }
+}
