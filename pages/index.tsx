@@ -82,28 +82,28 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" />
+                    <img src="/pfp/pfp_central.webp" />
                     <h2>Lazim Chaudhuri</h2>
                     <p>Central Comittee Rep.</p>
                     <br />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" />
+                    <img src="/pfp/pfp_president.webp" />
                     <h2>Sadman Kadir</h2>
                     <p>President</p>
                     <br />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" />
+                    <img src="/pfp/pfp_vp.webp" />
                     <h2>Swajon Sadik</h2>
                     <p>Vice President</p>
                     <br />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" />
+                    <img src="/pfp/pfp_secretary.webp" />
                     <h2>Asifur Rahman</h2>
                     <p>General Secretary</p>
                     <br />
