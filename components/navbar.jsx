@@ -18,7 +18,7 @@ const MENU_LIST = [
   { text: "Request", href: "/#" },
   { text: "Gallery", href: "/#" },
   { text: "Membership", href: "/#" },
-  { text: "Our panel", href: "/#" },
+  { text: "Our panel", href: "/panel/" },
   { text: "Contact", href: "/#" },
 ];
 const Navbar = () => {
