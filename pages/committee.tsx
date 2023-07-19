@@ -59,6 +59,13 @@ const HomePage = () => {
             </div>
 
             <div className={styles.category}>
+            <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp_vp.webp" alt="picture of vice president" />
+                    <h2>ছাদেকুল ইসলাম স্বজন</h2>
+                    <p>Vice President</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-005.webp" alt="picture of " />
                     <h2>নাফিসা আমিন নিঝুম</h2>
@@ -70,13 +77,6 @@ const HomePage = () => {
                     <img src="/pfp/pfp-010.webp" alt="picture of " />
                     <h2>সাজিদুর রহমান পাটোয়ারী</h2>
                     <p>সাংগঠনিক সম্পাদক</p>
-                    <br />
-                    <p><a href="">+8801700000000</a></p>
-                </div>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp_vp.webp" alt="picture of vice president" />
-                    <h2>ছাদেকুল ইসলাম স্বজন</h2>
-                    <p>Vice President</p>
                     <br />
                     <p><a href="">+8801700000000</a></p>
                 </div>
@@ -122,9 +122,73 @@ const HomePage = () => {
                     <p><a href="">+8801700000000</a></p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of vice president" />
-                    <h2>সায়েদিত সালেহিন আদিত্য </h2>
+                    <img src="/pfp/pfp-012.webp" alt="picture of vice president" />
+                    <h2>সায়েদিত সালেহিন আদিত্য</h2>
                     <p>যুগ্ম ছাত্র কল্যাণ সম্পাদক - ২</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+            </div>
+
+            <div className={styles.category}>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-017.webp" alt="picture of " />
+                    <h2>তৈয়বা ইসলাম অন্যন্যা</h2>
+                    <p>রোগী কল্যাণ সম্পাদক</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-013.webp" alt="picture of " />
+                    <h2>খন্দকার আবদুল্লাহ মীম</h2>
+                    <p>যুগ্ম রোগী কল্যাণ সম্পাদক - ১</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-016.webp" alt="picture of vice president" />
+                    <h2>স্নেহাশীষ রয়</h2>
+                    <p>যুগ্ম রোগী কল্যাণ সম্পাদক - ২</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+            </div> 
+
+            <div className={styles.category}>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-019.webp" alt="picture of " />
+                    <h2>আনজুম নাফি</h2>
+                    <p>প্রচার ও প্রকাশনা সম্পাদক</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-006.webp" alt="picture of " />
+                    <h2>বিরল দে অর্ঘ্য</h2>
+                    <p>যুগ্ম প্রচার ও প্রকাশনা সম্পাদক - ১</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-015.webp" alt="picture of vice president" />
+                    <h2>আনিকা আদিবা</h2>
+                    <p>যুগ্ম প্রচার ও প্রকাশনা সম্পাদক - ২</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+            </div>
+            <div className={styles.category}>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-014.webp" alt="picture of " />
+                    <h2>সিনথিয়া চৌধুরী</h2>
+                    <p>দপ্তর সম্পাদক</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-018.webp" alt="picture of " />
+                    <h2>আবদুল্লাহ আল শাহরিয়া</h2>
+                    <p>যুগ্ম দপ্তর সম্পাদক</p>
                     <br />
                     <p><a href="">+8801700000000</a></p>
                 </div>
