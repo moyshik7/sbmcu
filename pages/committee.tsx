@@ -37,59 +37,94 @@ const HomePage = () => {
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp_central.webp" alt="picture of central comittee representative" />
-                    <h2>লজিম ইমাম চৌধুরী</h2>
+                    <h2>লাজিম ইমাম চৌধুরী</h2>
                     <p>Central Comittee Rep.</p>
                     <br />
-                    <p>Be a lifeline, donate blood; your small act, their second chance.</p>
+                    <p><a href="">+8801700000000</a></p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp_president.webp" alt="picture of president" />
                     <h2>শাদমান কাদির</h2>
                     <p>President</p>
                     <br />
-                    <p>Share the gift of life, donate blood, and inspire a chain of kindness. Be a hero. Donate today!</p>
-                </div>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp_vp.webp" alt="picture of vice president" />
-                    <h2>ছাদেকুল ইসলাম স্বজন</h2>
-                    <p>Vice President</p>
-                    <br />
-                    <p>Give life, give love. Donate blood today. Your precious gift saves lives.</p>
+                    <p><a href="">+8801700000000</a></p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp_secretary.webp" alt="picture of general secretary" />
                     <h2>শাহরিয়ার হাসান আসিফ</h2>
                     <p>General Secretary</p>
                     <br />
-                    <p>Be a lifeline: Donate blood, ignite hope, save lives.</p>
+                    <p><a href="">+8801700000000</a></p>
                 </div>
             </div>
+
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp.webp" alt="picture of " />
-                    <h2>লজিম ইমাম চৌধুরী</h2>
-                    <p>Central Comittee Rep.</p>
+                    <img src="/pfp/pfp-005.webp" alt="picture of " />
+                    <h2>নাফিসা আমিন নিঝুম</h2>
+                    <p>সহ সাধারণ সম্পাদক</p>
                     <br />
                     <p><a href="">+8801700000000</a></p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp.webp" alt="picture of " />
-                    <h2>লজিম ইমাম চৌধুরী</h2>
-                    <p>Central Comittee Rep.</p>
+                    <img src="/pfp/pfp-010.webp" alt="picture of " />
+                    <h2>সাজিদুর রহমান পাটোয়ারী</h2>
+                    <p>সাংগঠনিক সম্পাদক</p>
                     <br />
                     <p><a href="">+8801700000000</a></p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp.webp" alt="picture of " />
-                    <h2>লজিম ইমাম চৌধুরী</h2>
-                    <p>Central Comittee Rep.</p>
+                    <img src="/pfp/pfp_vp.webp" alt="picture of vice president" />
+                    <h2>ছাদেকুল ইসলাম স্বজন</h2>
+                    <p>Vice President</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+            </div>
+
+            <div className={styles.category}>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-009.webp" alt="picture of " />
+                    <h2>সালমান ইবনে সেলিম</h2>
+                    <p>অর্থ সম্পাদক</p>
                     <br />
                     <p><a href="">+8801700000000</a></p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp.webp" alt="picture of " />
-                    <h2>লজিম ইমাম চৌধুরী</h2>
-                    <p>Central Comittee Rep.</p>
+                    <img src="/pfp/pfp-011.webp" alt="picture of " />
+                    <h2>মোস্তাফিজুর রহমান ফাহিম</h2>
+                    <p>যুগ্ম অর্থ সম্পাদক - ১</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-004.webp" alt="picture of vice president" />
+                    <h2>রিজওয়ান আহম্মদ</h2>
+                    <p>যুগ্ম অর্থ সম্পাদক - ২</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+            </div>
+
+            <div className={styles.category}>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-008.webp" alt="picture of " />
+                    <h2>সুদীপ্ত বিশ্বাস</h2>
+                    <p>ছাত্র কল্যাণ সম্পাদক</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-007.webp" alt="picture of " />
+                    <h2>লাবীবা বিনতে খালিদ</h2>
+                    <p>যুগ্ম ছাত্র কল্যাণ সম্পাদক - ১</p>
+                    <br />
+                    <p><a href="">+8801700000000</a></p>
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of vice president" />
+                    <h2>সায়েদিত সালেহিন আদিত্য </h2>
+                    <p>যুগ্ম ছাত্র কল্যাণ সম্পাদক - ২</p>
                     <br />
                     <p><a href="">+8801700000000</a></p>
                 </div>

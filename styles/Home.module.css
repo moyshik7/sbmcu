@@ -76,6 +76,11 @@
     padding-top: 35px;
     flex: 1 1 0;
 }
+.category .panel a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
 .category .panel img {
     width: 50%;
     margin: auto;
