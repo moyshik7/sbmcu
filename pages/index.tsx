@@ -83,28 +83,28 @@ const HomePage = () => {
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp_central.webp" alt="picture of central comittee representative" />
-                    <h2>Lazim Chaudhuri</h2>
+                    <h2>লজিম ইমাম চৌধুরী</h2>
                     <p>Central Comittee Rep.</p>
                     <br />
                     <p>Be a lifeline, donate blood; your small act, their second chance.</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp_president.webp" alt="picture of president" />
-                    <h2>Sadman Kadir</h2>
+                    <h2>শাদমান কাদির</h2>
                     <p>President</p>
                     <br />
                     <p>Share the gift of life, donate blood, and inspire a chain of kindness. Be a hero. Donate today!</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp_vp.webp" alt="picture of vice president" />
-                    <h2>Swajon Sadik</h2>
+                    <h2>ছাদেকুল ইসলাম স্বজন</h2>
                     <p>Vice President</p>
                     <br />
                     <p>Give life, give love. Donate blood today. Your precious gift saves lives.</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp_secretary.webp" alt="picture of general secretary" />
-                    <h2>Shahriar Hasan Asif</h2>
+                    <h2>শাহরিয়ার হাসান আসিফ</h2>
                     <p>General Secretary</p>
                     <br />
                     <p>Be a lifeline: Donate blood, ignite hope, save lives.</p>
