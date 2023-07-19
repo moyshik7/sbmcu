@@ -33,6 +33,8 @@ const HomePage = () => {
 
         <div className={styles.spacer}></div>
 
+        <Navbar />
+
         <main className={styles.content}>
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
