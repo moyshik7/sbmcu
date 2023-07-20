@@ -67,13 +67,13 @@ const HomePage = () => {
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-005.webp" alt="picture of " />
                     <h2>নাফিসা আমিন নিঝুম</h2>
-                    <p>সহ সাধারণ সম্পাদক</p>
+                    <p>Joint General Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-010.webp" alt="picture of " />
                     <h2>সাজিদুর রহমান পাটোয়ারী</h2>
-                    <p>সাংগঠনিক সম্পাদক</p>
+                    <p>Organizing Secretary</p>
                     <br />
                 </div>
             </div>
@@ -82,7 +82,7 @@ const HomePage = () => {
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-009.webp" alt="picture of " />
                     <h2>সালমান ইবনে সেলিম</h2>
-                    <p>অর্থ সম্পাদক</p>
+                    <p>Finance Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
