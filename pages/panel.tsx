@@ -88,13 +88,13 @@ const HomePage = () => {
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-011.webp" alt="picture of " />
                     <h2>মোস্তাফিজুর রহমান ফাহিম</h2>
-                    <p>যুগ্ম অর্থ সম্পাদক - ১</p>
+                    <p>Joint Finance Secretary - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-004.webp" alt="picture of vice president" />
                     <h2>রিজওয়ান আহম্মদ</h2>
-                    <p>যুগ্ম অর্থ সম্পাদক - ২</p>
+                    <p>Joint Finance Secretary - 2</p>
                     <br />
                 </div>
             </div>
@@ -103,19 +103,19 @@ const HomePage = () => {
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-008.webp" alt="picture of " />
                     <h2>সুদীপ্ত বিশ্বাস</h2>
-                    <p>ছাত্র কল্যাণ সম্পাদক</p>
+                    <p>Student Welfare Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-007.webp" alt="picture of " />
                     <h2>লাবীবা বিনতে খালিদ</h2>
-                    <p>যুগ্ম ছাত্র কল্যাণ সম্পাদক - ১</p>
+                    <p>Joint Student Welfare Secretary - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-012.webp" alt="picture of vice president" />
                     <h2>সায়েদিত সালেহিন আদিত্য</h2>
-                    <p>যুগ্ম ছাত্র কল্যাণ সম্পাদক - ২</p>
+                    <p>Joint Student Welfare Secretary - 2</p>
                     <br />
                 </div>
             </div>
@@ -124,19 +124,19 @@ const HomePage = () => {
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-017.webp" alt="picture of " />
                     <h2>তৈয়বা ইসলাম অনন্যা</h2>
-                    <p>রোগী কল্যাণ সম্পাদক</p>
+                    <p>Patient Welfare Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-013.webp" alt="picture of " />
                     <h2>খন্দকার আবদুল্লাহীল মীম</h2>
-                    <p>যুগ্ম রোগী কল্যাণ সম্পাদক - ১</p>
+                    <p>Joint Patient Welfare Secretary - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-016.webp" alt="picture of vice president" />
                     <h2>স্নেহাশীষ রয়</h2>
-                    <p>যুগ্ম রোগী কল্যাণ সম্পাদক - ২</p>
+                    <p>Joint Patient Welfare Secretary - 2</p>
                     <br />
                 </div>
             </div> 
