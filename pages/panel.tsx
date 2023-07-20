@@ -145,19 +145,19 @@ const HomePage = () => {
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-019.webp" alt="picture of " />
                     <h2>আনজুম নাফি</h2>
-                    <p>প্রচার ও প্রকাশনা সম্পাদক</p>
+                    <p>Press and Publications Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-006.webp" alt="picture of " />
                     <h2>বিরল দে অর্ঘ্য</h2>
-                    <p>যুগ্ম প্রচার ও প্রকাশনা সম্পাদক - ১</p>
+                    <p>Joint Press and Publications Secretary - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-015.webp" alt="picture of vice president" />
                     <h2>আনিকা আদিবা</h2>
-                    <p>যুগ্ম প্রচার ও প্রকাশনা সম্পাদক - ২</p>
+                    <p>Joint Press and Publications Secretary - 2</p>
                     <br />
                 </div>
             </div>
@@ -165,13 +165,13 @@ const HomePage = () => {
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-014.webp" alt="picture of " />
                     <h2>সিনথিয়া চৌধুরী</h2>
-                    <p>দপ্তর সম্পাদক</p>
+                    <p>Office Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-018.webp" alt="picture of " />
                     <h2>আবদুল্লাহ আল শাহরিয়া</h2>
-                    <p>যুগ্ম দপ্তর সম্পাদক</p>
+                    <p>Joint Office Secretary</p>
                     <br />
                 </div>
             </div>
