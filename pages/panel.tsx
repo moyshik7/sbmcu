@@ -178,19 +178,19 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <img src="/pfp/pfp-024.webp" alt="picture of " />
                     <h2>ফারিহা রউফ ঋতু</h2>
                     <p>Donor Club and Social Welfare Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <img src="/pfp/pfp-020.webp" alt="picture of " />
                     <h2>নুসরাত তাবাসসুম সর্ণা</h2>
                     <p>Education Research and Statistics Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of vice president" />
+                    <img src="/pfp/pfp-021.webp" alt="picture of vice president" />
                     <h2>রাকিবুল ইসলাম মুরাদ</h2>
                     <p>Joint Education Research and Statistics Secretary</p>
                     <br />
@@ -205,7 +205,7 @@ const HomePage = () => {
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <img src="/pfp/pfp-023.webp" alt="picture of " />
                     <h2>ফয়সাল খান</h2>
                     <p>Working Member - 2</p>
                     <br />
@@ -226,7 +226,7 @@ const HomePage = () => {
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <img src="/pfp/pfp-022.webp" alt="picture of " />
                     <h2>আয়েশা বিনতে কামাল নোভা</h2>
                     <p>Joint Drug Bank Secretary</p>
                     <br />
