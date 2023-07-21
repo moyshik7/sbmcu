@@ -201,19 +201,19 @@ const HomePage = () => {
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-026.webp" alt="picture of " />
                     <h2>মাহফুজা আনান</h2>
-                    <p>Working Member - 1</p>
+                    <p>Executive Committee Member - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-023.webp" alt="picture of " />
                     <h2>ফয়সাল খান</h2>
-                    <p>Working Member - 2</p>
+                    <p>Executive Committee Member - 2</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp-027.webp" alt="picture of vice president" />
                     <h2>জিনিয়া আলম</h2>
-                    <p>Working Member - 3</p>
+                    <p>Executive Committee Member - 3</p>
                     <br />
                 </div>
             </div>
