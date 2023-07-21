@@ -83,7 +83,7 @@ const HomePage = () => {
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
                     <img src="/pfp/pfp_central.webp" alt="picture of central comittee representative" />
-                    <h2>লজিম ইমাম চৌধুরী</h2>
+                    <h2>লাজিম ইমাম চৌধুরী</h2>
                     <p>Central Comittee Rep.</p>
                     <br />
                     <p>Be a lifeline, donate blood; your small act, their second chance.</p>
