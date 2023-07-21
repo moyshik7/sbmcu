@@ -175,6 +175,63 @@ const HomePage = () => {
                     <br />
                 </div>
             </div>
+
+            <div className={styles.category}>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <h2>ফারিহা রউফ ঋতু</h2>
+                    <p>Donor Club and Social Welfare Secretary</p>
+                    <br />
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <h2>নুসরাত তাবাসসুম সর্ণা</h2>
+                    <p>Education Research and Statistics Secretary</p>
+                    <br />
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of vice president" />
+                    <h2>রাকিবুল ইসলাম মুরাদ</h2>
+                    <p>Joint Education Research and Statistics Secretary</p>
+                    <br />
+                </div>
+            </div>
+
+            <div className={styles.category}>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <h2>মাহফুজা আনান</h2>
+                    <p>Working Member - 1</p>
+                    <br />
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <h2>ফয়সাল খান</h2>
+                    <p>Working Member - 2</p>
+                    <br />
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of vice president" />
+                    <h2>জিনিয়া আলম</h2>
+                    <p>Working Member - 3</p>
+                    <br />
+                </div>
+            </div>
+
+            <div className={styles.category}>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <h2>সিদরাতুল মুনতাহা</h2>
+                    <p>Drug Bank Secretary</p>
+                    <br />
+                </div>
+                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <h2>আয়েশা বিনতে কামাল নোভা</h2>
+                    <p>Joint Drug Bank Secretary</p>
+                    <br />
+                </div>
+            </div>
         </main>
   
         <footer className={styles.footer}>
