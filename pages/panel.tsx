@@ -199,7 +199,7 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <img src="/pfp/pfp-026.webp" alt="picture of " />
                     <h2>মাহফুজা আনান</h2>
                     <p>Working Member - 1</p>
                     <br />
@@ -211,7 +211,7 @@ const HomePage = () => {
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of vice president" />
+                    <img src="/pfp/pfp-027.webp" alt="picture of vice president" />
                     <h2>জিনিয়া আলম</h2>
                     <p>Working Member - 3</p>
                     <br />
@@ -220,7 +220,7 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-demo.webp" alt="picture of " />
+                    <img src="/pfp/pfp-025.webp" alt="picture of " />
                     <h2>সিদরাতুল মুনতাহা</h2>
                     <p>Drug Bank Secretary</p>
                     <br />
