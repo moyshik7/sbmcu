@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '@/styles/request.module.css'
+import styles from '@/styles/membership.module.css'
 import Navbar from "@/components/navbar"
 
 
@@ -40,68 +40,31 @@ const HomePage = () => {
         </section>
 
         <main className={styles.content}>
-
             <div className={styles.category}>
-                <div className={`${styles.item} ${styles.bg_red}`}>
-                    <h2>A (+ve)</h2>
-                    <p>Available: 03<br/>Regular Donors: 23</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_purple}`}>
-                    <h2>A (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 05</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-
-                <div className={`${styles.item} ${styles.bg_green}`}>
-                    <h2>B (+ve)</h2>
-                    <p>Available: 03<br/>Regular Donors: 23</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_brown}`}>
-                    <h2>B (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 05</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
+                <div className={styles.textbox}>
+                    <h1>Membership of Sandhani Bangladesh Medical College Unit</h1>
+                    <h2>Types of Membership</h2>
+                    <p>
+                        We offer 2 types of membership. Donor Club membership and Student membership (Active committee) composed of students of Bangladesh Medical College, Dhanmondi.
+                    </p>
                 </div>
             </div>
 
             <div className={styles.category}>
-                <div className={`${styles.item} ${styles.bg_orange}`}>
-                    <h2>O (+ve)</h2>
-                    <p>Available: 03<br/>Regular Donors: 23</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
+                <div className={`${styles.item} ${styles.bg_purple}`}>
+                    <h2>Donor Club Member</h2>
+                    <p>
+                        You can join simply by donating a bag of blood at our unit and receiving a membership card. That card can be used to exchange with a bag of blood of any group (if available) from any Sandhani unit around Bangladesh. By signing up you allow us to contact you for bloods in case of emergency. You will still have the authority to decline the request. You can cancel your membership at any time by submitting an application to the issuing branch. Sandhani Bangladesh Medical College Unit will be responsible for responsible for removing and deleting your personal information in case of your mrmbership is revoked (This process will be activating at the start of next operation year). You may receive one bag of blood for every bag of blood you donate.
+                    </p>
                 </div>
-                <div className={`${styles.item} ${styles.bg_paste}`}>
-                    <h2>O (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 05</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-
-                <div className={`${styles.item} ${styles.bg_yellow}`}>
-                    <h2>AB (+ve)</h2>
-                    <p>Available: 03<br/>Regular Donors: 23</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_blue}`}>
-                    <h2>AB (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 05</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
+                <div className={`${styles.item} ${styles.bg_brown}`}>
+                    <h2>Student Volunteer Membership</h2>
+                    <p>
+                        To be eligible you must be a current student of Bangladesh Medical College. You can Join by filling up the attached form online and paying 100/= taka (non refundable) via bKash/Nagad or physically submitting your application form or you can receive a physical copy of the form from Sandhani Bangladesh Medical College Unit office and filling it up along with one copy of your passport size photograph and submitting it. You might have to wait a few workingg days to be approved. Sandhani Bangladesh Medical College holds the right to deny/cancel your request with or without any reasoning. By signing up you agree to abide by our membership terms and conditions. Your membership will be automatically denied if you&apos;re found to be frawd, misleading, toxic, and in any way harmful for both Sandhani bangladesh medical College or it&apos;s members.
+                    </p>
+                    <a href="https://forms.gle/xcCei9Pqq9rRJwTr6" target="_blank">
+                        Apply Now
+                    </a>
                 </div>
             </div>
         </main>
