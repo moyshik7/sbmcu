@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '@/styles/request.module.css'
+import styles from '@/styles/rick.module.css'
 import Navbar from "@/components/navbar"
 
 
@@ -36,7 +36,11 @@ const HomePage = () => {
 
         <main className={styles.content}>
             <div className={`${styles.item} ${styles.bg_orange}`}>
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen ></iframe>
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&autoplay=1&mute=0&loop=1" title="Never Gonna Give You Up" frameBorder="0" allow="autoplay" allowFullScreen ></iframe>
+            </div>
+            
+            <div className={`${styles.item} ${styles.bg_orange}`}>
+                <iframe src="https://www.youtube.com/embed/Tb6xGDiSscc?controls=0&autoplay=1&mute=0&loop=1" title="Never Gonna Give You Up" frameBorder="0" allow="autoplay" allowFullScreen ></iframe>
             </div>
         </main>
     </div>);
