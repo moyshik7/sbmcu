@@ -14,7 +14,6 @@ const NavItem = ({ text, href, active }) => {
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about/" },
-  { text: "Donate", href: "/donate/" },
   { text: "Request", href: "/request/" },
   { text: "Gallery", href: "/gallery/" },
   { text: "Membership", href: "/membership/" },
