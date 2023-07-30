@@ -139,28 +139,93 @@ const HomePage = () => {
                     <br/>
                     <br/>
                     <br/>
-
+                    <div className={`${styles.right} + ${styles.img}`}>
+                        <img src="/gallery/gallery_001.webp" />
+                    </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-                    
+                    <div className={`${styles.left} + ${styles.img}`}>
+                        <img src="/gallery/gallery_002.webp" />
+                    </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-
-                    
+                    <div className={`${styles.right} + ${styles.img}`}>
+                        <img src="/gallery/gallery_003.webp" />
+                    </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
-
-                    
+                    <div className={`${styles.left} + ${styles.img}`}>
+                        <img src="/gallery/gallery_004.webp" />
+                    </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
+                    <div className={`${styles.right} + ${styles.img}`}>
+                        <img src="/gallery/gallery_005.webp" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className={`${styles.left} + ${styles.img}`}>
+                        <img src="/gallery/gallery_006.webp" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className={`${styles.right} + ${styles.img}`}>
+                        <img src="/gallery/gallery_007.webp" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className={`${styles.left} + ${styles.img}`}>
+                        <img src="/gallery/gallery_008.webp" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className={`${styles.right} + ${styles.img}`}>
+                        <img src="/gallery/gallery_009.webp" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className={`${styles.left} + ${styles.img}`}>
+                        <img src="/gallery/gallery_010.webp" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className={`${styles.right} + ${styles.img}`}>
+                        <img src="/gallery/gallery_011.webp" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className={`${styles.left} + ${styles.img}`}>
+                        <img src="/gallery/gallery_012.webp" />
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className={`${styles.right} + ${styles.img}`}>
+                        <img src="/gallery/gallery_013.webp" />
+                    </div>
                 </div>
             </div>
         </main>
