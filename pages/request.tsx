@@ -34,11 +34,6 @@ const HomePage = () => {
 
         <Navbar />
 
-        <section className={styles.over_image} id="about">
-            <h2>About Sandhani</h2>
-            <p>Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need.</p>
-        </section>
-
         <main className={styles.content}>
 
             <div className={styles.category}>
