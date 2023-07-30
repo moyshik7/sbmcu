@@ -5,13 +5,19 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Ysabeau Infant', sans-serif;
 */
 body {
-  margin: 0;
+    margin: 0;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
