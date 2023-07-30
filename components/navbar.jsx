@@ -13,13 +13,13 @@ const NavItem = ({ text, href, active }) => {
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
-  { text: "About", href: "/#" },
+  { text: "About", href: "/about/" },
   { text: "Donate", href: "/donate/" },
-  { text: "Request", href: "/#" },
-  { text: "Gallery", href: "/#" },
-  { text: "Membership", href: "/#" },
+  { text: "Request", href: "/request/" },
+  { text: "Gallery", href: "/gallery/" },
+  { text: "Membership", href: "/membership/" },
   { text: "Our panel", href: "/panel/" },
-  { text: "Contact", href: "/#" },
+  { text: "Contact", href: "/contact/" },
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
