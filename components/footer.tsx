@@ -5,47 +5,33 @@ const FooterItem = () => {
     return (<div>
     <div className={styles.footer}>
         <div className={styles.sub}>
-            <table>
-                <tr>
-                    <td>
-                        <img src="/logo/logo_facebook.webp" alt="facebook Logo" />
-                    </td>
-                    <td>
-                        <Link href="#">Facebook</Link>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="/logo/logo_twitter_old.webp" alt="Twitter Logo" />
-                    </td>
-                    <td>
-                        <Link href="#">Twitter</Link>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="/logo/logo_linked.webp" alt="Linkedin Logo" />
-                    </td>
-                    <td>
-                        <Link href="#">Linkedin</Link>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="/logo/logo_call.webp" alt="Phone Logo" />
-                    </td>
-                    <td>
-                        <Link href="#">Phone</Link>
-                    </td>
-                </tr>
-            </table>
+            <ul>
+                <li>
+                    <Link href="https://www.facebook.com/profile.php?id=100081879352166">Facebook</Link>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <Link href="https://twitter.com/s_bmcu">Twitter</Link>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <Link href="https://bd.linkedin.com/company/sandhani-bangladesh-medical-college-unit">Linkedin</Link>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <Link href="tel:+8801716858723">Phone</Link>
+                </li>
+            </ul>
         </div>
         <div className={styles.sub}>
             <ul>
-                <li><Link href="#">About Sandhani</Link></li>
-                <li><Link href="#">Our Works</Link></li>
-                <li><Link href="#">Our Panel Members</Link></li>
-                <li><Link href="#">Stock of Blood</Link></li>
+                <li><Link href="/about/">About Sandhani</Link></li>
+                <li><Link href="/gallery/">Our Works</Link></li>
+                <li><Link href="/panel/">Our Panel Members</Link></li>
+                <li><Link href="/request/">Stock of Blood</Link></li>
             </ul>
         </div>
         <div className={styles.sub}>
@@ -53,7 +39,7 @@ const FooterItem = () => {
                 <li><Link href="#">Terms and Condition</Link></li>
                 <li><Link href="#">User Policy</Link></li>
                 <li><Link href="#">Data Collection</Link></li>
-                <li><Link href="#">Membership Form</Link></li>
+                <li><Link href="/membership/">Membership Form</Link></li>
             </ul>
         </div>
     </div>

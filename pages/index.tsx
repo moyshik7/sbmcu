@@ -10,16 +10,6 @@ import FooterItem from '@/components/footer';
 const HomePage = () => {
     return (
     <div className={styles.main}>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZ71381ERP" strategy="afterInteractive" />
-      	<Script id="google-analytics" strategy="afterInteractive">
-        	{`
-          		window.dataLayer = window.dataLayer || [];
-          		function gtag(){dataLayer.push(arguments);}
-          		gtag('js', new Date());
-
-          		gtag('config', 'G-BZ71381ERP');
-        	`}
-      	</Script>
         <Head>
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
@@ -43,7 +33,17 @@ const HomePage = () => {
             <link rel="icon" href="/favicon.ico" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZ71381ERP" strategy="afterInteractive" />
+      	<Script id="google-analytics" strategy="afterInteractive">
+        	{`
+          		window.dataLayer = window.dataLayer || [];
+          		function gtag(){dataLayer.push(arguments);}
+          		gtag('js', new Date());
 
+          		gtag('config', 'G-BZ71381ERP');
+        	`}
+      	</Script>
+        
         <div className={styles.spacer}></div>
 
         <Navbar />

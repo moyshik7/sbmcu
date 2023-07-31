@@ -8,39 +8,12 @@
     flex-grow: 1;
     width: 100%;
     min-height: 200px;
+    margin-top: 200px;
 }
 .footer .sub {
     min-height: 200px;
     width: 30%;
     text-align: center;
-}
-.footer .sub table img {
-    height: 25px;
-}
-.footer .sub table a {
-    text-decoration: none;
-    font-size: 20px;
-    color: wheat;
-}
-.footer .sub table td{
-    font-size: 20px;
-    color: wheat;
-}
-
-.footer .sub table {
-    width: 100%;
-}
-.footer .sub table tr td:first-child {
-    text-align: right;
-    width: 45%;
-    padding-right: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.footer .sub table tr td:last-child {
-    text-align: left;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .footer .sub ul {
