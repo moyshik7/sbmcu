@@ -1,11 +1,22 @@
 import Head from 'next/head';
 import styles from '@/styles/about.module.css'
 import Navbar from "@/components/navbar"
+import Script from 'next/script'
 
 
 const HomePage = () => {
     return (
     <div className={styles.main}>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZ71381ERP" strategy="afterInteractive" />
+      	<Script id="google-analytics" strategy="afterInteractive">
+        	{`
+          		window.dataLayer = window.dataLayer || [];
+          		function gtag(){dataLayer.push(arguments);}
+          		gtag('js', new Date());
+ 
+          		gtag('config', 'G-BZ71381ERP');
+        	`}
+      	</Script>
         <Head>
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
