@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /rick
+Disallow: /rick/*
+Disallow: /admin
+
+User-agent: fardin
+Allow: /nourin
+Disallow: /istia
+
+Host: https://sbmcu.com
+
+Sitemap: https://sbmcu.com/sitemap.xml
