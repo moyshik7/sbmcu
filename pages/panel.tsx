@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '@/styles/Home.module.css'
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
+import FooterItem from '@/components/footer';
 
 
 const HomePage = () => {
@@ -244,26 +245,7 @@ const HomePage = () => {
             </div>
         </main>
   
-        <footer className={styles.footer}>
-            <div className={styles.socialLinks}>
-                <a href="https://www.facebook.com/people/Sandhani-Bangladesh-Medical-College-Unit/" target='_blank'>
-                    Facebook
-                </a>
-                <a href="https://linkedin.com/company/sandhani-bangladesh-medical-college-unit" target='_blank'>
-                    Linkedin
-                </a>
-                <a href="mailto:example@example.com" target='_blank'>
-                    Mail
-                </a>
-                <a href="tel:+8801716858723" target='_blank'>
-                    Call
-                </a>
-                <a href="https://twitter.com/s_bmcu" target='_blank'>
-                    Twitter
-                </a>
-            </div>
-            <p>&copy; {new Date().getFullYear()} Sandhani - Bangladesh Medical College - Made bu Sayurio</p>
-        </footer>
+        <FooterItem/>
     </div>);
 };
   
