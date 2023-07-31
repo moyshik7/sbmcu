@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import styles from '@/styles/gallery.module.css'
+import styles from '@/styles/contact.module.css'
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
+import Link from 'next/link';
 
 
 const HomePage = () => {
@@ -50,12 +51,46 @@ const HomePage = () => {
                 <div className={styles.textbox}>
                     <h1>Contact Us</h1>
                 </div>
+            </div>
+            <div className={styles.category}>
                 <div className={styles.textbox}>
                     <h2>Address:</h2>
-                    <p>pppp</p>
+                    <p><Link href="https://goo.gl/maps/Q32WXNKLENYxqFhj7" target="_blank"> Ground floor, BMSRI Office (opposite to main hospital building), Bangladesh Medical College Hospital, Dhanmondi 14/A, Dhaka-1209, Dhaka, Bangladesh</Link></p>
                 </div>
             </div>
-            
+            <div className={styles.category}>
+                <div className={styles.textbox}>
+                    <h2>Mobile:</h2>
+                    <p>Tanjil Mahmud Shikdar (Senior Technitian) <Link href="tel:+8801716858723">+88 01716-858723</Link> </p>
+                    <p>Shadman Kadir (President) <Link href="tel:+8801531191682">+88 01531-191682</Link> </p>
+                    <p>Shahriar Hasan Asif (General Secretary) <Link href="tel:+8801600196600">+88 01600-196600</Link> </p>
+                </div>
+            </div>
+            <div className={styles.category}>
+                <div className={styles.textbox}>
+                    <h2>Facebook:</h2>
+                    <p><Link href="https://www.facebook.com/profile.php?id=100081879352166" target="_blank">Sandhani Bangladesh Medical College Unit</Link> </p>
+                </div>
+            </div>
+            <div className={styles.category}>
+                <div className={styles.textbox}>
+                    <h2>Twitter:</h2>
+                    <p><Link href="https://twitter.com/s_bmcu" target="_blank">Sandhani Bangladesh Medical College Unit</Link> </p>
+                </div>
+            </div>
+            <div className={styles.category}>
+                <div className={styles.textbox}>
+                    <h2>Mail:</h2>
+                    <p><Link href="mailto:admin@sbmcu.com">admin@sbmcu.com</Link> </p>
+                </div>
+            </div>
+            <div className={styles.category}>
+                <div className={styles.textbox}>
+                    <h2>Linkedin:</h2>
+                    <p><Link href="https://bd.linkedin.com/company/sandhani-bangladesh-medical-college-unit" target="_blank">Sandhani Bangladesh Medical College Unit</Link> </p>
+                </div>
+            </div>
+            <map className={styles.map}></map>
         </main>
   
         <footer className={styles.footer}>
