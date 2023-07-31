@@ -4,10 +4,10 @@ import styles from "@/styles/slide.module.css"
 
 const Slideshow = () => {
     const images = [
-      '/slide/slide_1.jpg',
-      '/slide/slide_2.jpg',
-      '/slide/slide_3.jpg',
-      '/slide/slide_4.jpg',
+      '/slide/slide_1.webp',
+      '/slide/slide_2.webp',
+      '/slide/slide_3.webp',
+      '/slide/slide_4.webp',
     ];
     
     const [currentIndex, setCurrentIndex] = useState(0);

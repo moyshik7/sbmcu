@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Slideshow from '@/components/slide';
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
+import Link from 'next/link';
 
 
 const HomePage = () => {
@@ -61,14 +62,14 @@ const HomePage = () => {
                     <h2>Donate Blood</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div className={styles.button_holder}>
-                        <a href="#">Donate Now</a>
+                        <Link href="/contact">Donate Now</Link>
                     </div>
                 </div>
                 <div className={`${styles.item} ${styles.bg_purple}`}>
                     <h2>Receive Blood</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div className={styles.button_holder}>
-                        <a href="#">Receive Now</a>
+                        <Link href="/request">Receive Now</Link>
                     </div>
                 </div>
             </div>
@@ -78,14 +79,14 @@ const HomePage = () => {
                     <h2>Contact Us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div className={styles.button_holder}>
-                        <a href="#">Contact Us</a>
+                        <Link href="/contact">Contact Us</Link>
                     </div>
                 </div>
                 <div className={`${styles.item} ${styles.bg_blue}`}>
                     <h2>Join Us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div className={styles.button_holder}>
-                        <a href="#">Become a Member</a>
+                        <Link href="/membership">Become a Member</Link>
                     </div>
                 </div>
             </div>
