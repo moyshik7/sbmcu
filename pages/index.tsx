@@ -70,7 +70,9 @@ const HomePage = () => {
                 </div>
                 <div className={`${styles.item} ${styles.bg_purple}`}>
                     <h2>Receive Blood</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                        🩸 Need blood? We're here, day and night, to support you! 🌟 Our doors are open 24/7, and we're just a call away. Whether it's an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood. Your well-being is our top priority, and we're dedicated to providing the help you need, whenever you need it. Reach out to us anytime, and let's ensure your health is in good hands! 🤝🏥
+                    </p>
                     <div className={styles.button_holder}>
                         <Link href="/request">Receive Now</Link>
                     </div>
