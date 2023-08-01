@@ -62,7 +62,7 @@ const HomePage = () => {
                 <div className={`${styles.item} ${styles.bg_red}`}>
                     <h2>Donate Blood</h2>
                     <p>
-                        Brighten someone's day with the gift of life! 🩸 Donate blood and spread happiness through your generosity. Every drop you give can save a life and make a positive impact on the world. Join the lifesaving party, and let your kindness flow as we celebrate the joy of giving together! 
+                        Brighten someone&apos;s day with the gift of life! 🩸 Donate blood and spread happiness through your generosity. Every drop you give can save a life and make a positive impact on the world. Join the lifesaving party, and let your kindness flow as we celebrate the joy of giving together! 
                     </p>
                     <div className={styles.button_holder}>
                         <Link href="/contact">Donate Now</Link>
@@ -71,7 +71,7 @@ const HomePage = () => {
                 <div className={`${styles.item} ${styles.bg_purple}`}>
                     <h2>Receive Blood</h2>
                     <p>
-                        🩸 Need blood? We're here, day and night, to support you! 🌟 Our doors are open 24/7, and we're just a call away. Whether it's an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood. Your well-being is our top priority, and we're dedicated to providing the help you need, whenever you need it. Reach out to us anytime, and let's ensure your health is in good hands! 🤝🏥
+                        🩸 Need blood? We&apos;re here, day and night, to support you! 🌟 Our doors are open 24/7, and we&apos;re just a call away. Whether it&apos;s an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood. Your well-being is our top priority, and we&apos;re dedicated to providing the help you need, whenever you need it. Reach out to us anytime, and let&apos;s ensure your health is in good hands! 🤝🏥
                     </p>
                     <div className={styles.button_holder}>
                         <Link href="/request">Receive Now</Link>
@@ -83,7 +83,7 @@ const HomePage = () => {
                 <div className={`${styles.item} ${styles.bg_yellow}`}>
                     <h2>Contact Us</h2>
                     <p>
-                        🤝 Need a helping hand? We've got you covered! 🌟 Whether it's a question, a concern, or a friendly chat, don't hesitate to reach out to us. Our team is here and eager to assist you. Together, we can overcome any obstacle and find the perfect solution tailored to your needs. So, drop us a message or give us a call, and let's embark on this journey together! 
+                        🤝 Need a helping hand? We&apos;ve got you covered! 🌟 Whether it&apos;s a question, a concern, or a friendly chat, don&apos;t hesitate to reach out to us. Our team is here and eager to assist you. Together, we can overcome any obstacle and find the perfect solution tailored to your needs. So, drop us a message or give us a call, and let&apos;s embark on this journey together! 
                     </p>
                     <div className={styles.button_holder}>
                         <Link href="/contact">Contact Us</Link>
@@ -92,7 +92,7 @@ const HomePage = () => {
                 <div className={`${styles.item} ${styles.bg_blue}`}>
                     <h2>Join Us</h2>
                     <p>
-                        Want to be part of an amazing organization that saves lives with every heartbeat? Join Sandhani, where students like you come together to collect the gift of life: blood! 🎈🩸 Spread smiles, share compassion, and make a difference in the lives of those in need. Together, we'll pump joy into the world by giving back and making every drop count. Be a lifesaver, join Sandhani, and let's create a happier, healthier tomorrow! 
+                        Want to be part of an amazing organization that saves lives with every heartbeat? Join Sandhani, where students like you come together to collect the gift of life: blood! 🎈🩸 Spread smiles, share compassion, and make a difference in the lives of those in need. Together, we&apos;ll pump joy into the world by giving back and making every drop count. Be a lifesaver, join Sandhani, and let&apos;s create a happier, healthier tomorrow! 
                     </p>
                     <div className={styles.button_holder}>
                         <Link href="/membership">Become a Member</Link>
