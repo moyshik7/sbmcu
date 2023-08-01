@@ -35,9 +35,29 @@ const HomePage = () => {
             <link rel="manifest" href="/manifest.json"/>
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
-            <meta name="theme-color" content="#ffffff"/>
+
             
-            <title>Sandhani - Blood Donation Organization</title>
+            <meta name="theme-color" content="#ff6f61"/>
+            <meta name='keywords' content="Sandhani, Sandhani Bangladesh Medical College Unit, Sandhani Rajsahi Medical College Unit, Bangladesh Medical College, Join Sandhani, Donate Blood, Donate Blood in Dhaka"/>
+            <meta name='description' content="Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need."/>
+            <meta name='subject' content="Blood Donation Free"/>
+            <meta name='copyright' content="Sandhani Bangladesh Medical College Unit"/>
+            <meta name='language' content='EN'/>
+            <meta name='robots' content='index,follow'/>
+            <meta property="og:title" content="Executive Comittee Panel of Sandhani" />
+            <meta property="og:description" content="Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need." />
+            <meta property="og:url" content="https://sbmcu.com/panel" />
+            <meta property="og:image" content="https://sbmcu.com/slide/slide_2.webp" />
+            <meta property="og:site_name" content="Sandhani Bangladesh Medical College Unit" />
+            <meta name="twitter:title" content="Executive Comittee Panel of Sandhani" />
+            <meta name="twitter:description" content="Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need." />
+            <meta name="twitter:image" content="https://sbmcu.com/slide/slide_2.webp" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:image:alt" content="Sandhani Bangladesh Medical College Unit Cover Photo"/>
+            <meta name="twitter:site" content="@s_bmcu" />
+
+            
+            <title>Executive Comittee Panel of Sandhani</title>
             <link rel="icon" href="/favicon.ico" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>

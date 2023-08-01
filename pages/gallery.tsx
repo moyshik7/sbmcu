@@ -35,9 +35,27 @@ const HomePage = () => {
             <link rel="manifest" href="/manifest.json"/>
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
-            <meta name="theme-color" content="#ffffff"/>
             
-            <title>Sandhani - Blood Donation Organization</title>
+            <meta name="theme-color" content="#ff6f61"/>
+            <meta name='keywords' content="Sandhani bangladesh Medical College, Sandhani, Sandhani Dhaka Medical College, Sandhani Salimullah Medical College Unit, Works of Sandhani, Donation serviece in Dhaka, Charity Organization in Dhaka"/>
+            <meta name='description' content="Sandhani bangladesh medical college unit collescts and distributes hundreads of bags of blood each year and distribute them among people in need. It is currently run by students of Bangladesh Medical College helping people in distress."/>
+            <meta name='subject' content="Blood Donation Free"/>
+            <meta name='copyright' content="Sandhani Bangladesh Medical College Unit"/>
+            <meta name='language' content='EN'/>
+            <meta name='robots' content='index,follow'/>
+            <meta property="og:title" content="Our Works and Achievements - Sandhani" />
+            <meta property="og:description" content="Sandhani bangladesh medical college unit collescts and distributes hundreads of bags of blood each year and distribute them among people in need. It is currently run by students of Bangladesh Medical College helping people in distress." />
+            <meta property="og:url" content="https://sbmcu.com/membership" />
+            <meta property="og:image" content="https://sbmcu.com/slide/slide_2.webp" />
+            <meta property="og:site_name" content="Sandhani Bangladesh Medical College Unit" />
+            <meta name="twitter:title" content="Our Works and Achievements - Sandhani" />
+            <meta name="twitter:description" content="Sandhani bangladesh medical college unit collescts and distributes hundreads of bags of blood each year and distribute them among people in need. It is currently run by students of Bangladesh Medical College helping people in distress." />
+            <meta name="twitter:image" content="https://sbmcu.com/slide/slide_2.webp" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:image:alt" content="Sandhani Bangladesh Medical College Unit Cover Photo"/>
+            <meta name="twitter:site" content="@s_bmcu" />
+            
+            <title>Our Works and Achievements - Sandhani</title>
             <link rel="icon" href="/favicon.ico" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>

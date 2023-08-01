@@ -35,9 +35,27 @@ const HomePage = () => {
             <link rel="manifest" href="/manifest.json"/>
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
-            <meta name="theme-color" content="#ffffff"/>
+
+            <meta name="theme-color" content="#ff6f61"/>
+            <meta name='keywords' content="Blood bank, Blood Bank in Bangladesh, Blood bank Near Me, Shandhani Bangladesh Medical College"/>
+            <meta name='description' content="Need blood? We're here, day and night, to support you! Our doors are open 24/7, and we're just a call away. Whether it's an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood"/>
+            <meta name='subject' content="Blood Donation Free"/>
+            <meta name='copyright' content="Sandhani Bangladesh Medical College Unit"/>
+            <meta name='language' content='EN'/>
+            <meta name='robots' content='index,follow'/>
+            <meta property="og:title" content="Blood Stock and Donors - Sandhani" />
+            <meta property="og:description" content="Need blood? We're here, day and night, to support you! Our doors are open 24/7, and we're just a call away. Whether it's an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood" />
+            <meta property="og:url" content="https://sbmcu.com/membership" />
+            <meta property="og:image" content="https://sbmcu.com/slide/slide_2.webp" />
+            <meta property="og:site_name" content="Sandhani Bangladesh Medical College Unit" />
+            <meta name="twitter:title" content="Blood Stock and Donors - Sandhani" />
+            <meta name="twitter:description" content="Need blood? We're here, day and night, to support you! Our doors are open 24/7, and we're just a call away. Whether it's an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood" />
+            <meta name="twitter:image" content="https://sbmcu.com/slide/slide_2.webp" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:image:alt" content="Sandhani Bangladesh Medical College Unit Cover Photo"/>
+            <meta name="twitter:site" content="@s_bmcu" />
             
-            <title>Sandhani - Blood Donation Organization</title>
+            <title>Blood Stock and Donors - Sandhani</title>
             <link rel="icon" href="/favicon.ico" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
