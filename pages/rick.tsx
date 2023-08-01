@@ -19,7 +19,6 @@ const HomePage = () => {
       	</Script>
         <Head>
             <title>You Have Been RickRolled</title>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
 
         <div className={styles.spacer}></div>

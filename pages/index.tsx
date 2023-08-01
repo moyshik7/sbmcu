@@ -48,7 +48,6 @@ const HomePage = () => {
             
             <title>Sandhani - Blood Donation Organization</title>
             <link rel="icon" href="/favicon.ico" />
-            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZ71381ERP" strategy="afterInteractive" />
       	<Script id="google-analytics" strategy="afterInteractive">

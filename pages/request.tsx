@@ -57,7 +57,6 @@ const HomePage = () => {
             
             <title>Blood Stock and Donors - Sandhani</title>
             <link rel="icon" href="/favicon.ico" />
-            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Head>
 
         <div className={styles.spacer}></div>
