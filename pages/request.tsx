@@ -68,7 +68,7 @@ const HomePage = () => {
             <div className={styles.category}>
                 <div className={`${styles.item} ${styles.bg_red}`}>
                     <h2>A (+ve)</h2>
-                    <p>Available: 03<br/>Regular Donors: 23</p>
+                    <p>Available: 01<br/>Regular Donors: 62</p>
                     <div className={styles.button_holder}>
                         <a href="tel:+8801716858723">Call Now</a>
                     </div>
@@ -83,14 +83,14 @@ const HomePage = () => {
 
                 <div className={`${styles.item} ${styles.bg_green}`}>
                     <h2>B (+ve)</h2>
-                    <p>Available: 03<br/>Regular Donors: 23</p>
+                    <p>Available: 01<br/>Regular Donors: 38</p>
                     <div className={styles.button_holder}>
                         <a href="tel:+8801716858723">Call Now</a>
                     </div>
                 </div>
                 <div className={`${styles.item} ${styles.bg_brown}`}>
                     <h2>B (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 05</p>
+                    <p>Available: 00<br/>Regular Donors: 08</p>
                     <div className={styles.button_holder}>
                         <a href="tel:+8801716858723">Call Now</a>
                     </div>
@@ -100,14 +100,14 @@ const HomePage = () => {
             <div className={styles.category}>
                 <div className={`${styles.item} ${styles.bg_orange}`}>
                     <h2>O (+ve)</h2>
-                    <p>Available: 03<br/>Regular Donors: 23</p>
+                    <p>Available: 01<br/>Regular Donors: 77</p>
                     <div className={styles.button_holder}>
                         <a href="tel:+8801716858723">Call Now</a>
                     </div>
                 </div>
                 <div className={`${styles.item} ${styles.bg_paste}`}>
                     <h2>O (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 05</p>
+                    <p>Available: 00<br/>Regular Donors: 04</p>
                     <div className={styles.button_holder}>
                         <a href="tel:+8801716858723">Call Now</a>
                     </div>
@@ -115,14 +115,83 @@ const HomePage = () => {
 
                 <div className={`${styles.item} ${styles.bg_yellow}`}>
                     <h2>AB (+ve)</h2>
-                    <p>Available: 03<br/>Regular Donors: 23</p>
+                    <p>Available: 00<br/>Regular Donors: 35</p>
                     <div className={styles.button_holder}>
                         <a href="tel:+8801716858723">Call Now</a>
                     </div>
                 </div>
                 <div className={`${styles.item} ${styles.bg_blue}`}>
                     <h2>AB (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 05</p>
+                    <p>Available: 00<br/>Regular Donors: 02</p>
+                    <div className={styles.button_holder}>
+                        <a href="tel:+8801716858723">Call Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            {/* Bengali */}
+            <div className={styles.category}>
+                <div className={`${styles.item} ${styles.bg_red}`}>
+                    <h2>এ পজেটিভ</h2>
+                    <p>প্রাপ্তিসাধ্য: 01<br/>নিয়মিত দাতা: 62</p>
+                    <div className={styles.button_holder}>
+                        <a href="tel:+8801716858723">Call Now</a>
+                    </div>
+                </div>
+                <div className={`${styles.item} ${styles.bg_purple}`}>
+                    <h2>এ নেগেটিভ</h2>
+                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 05</p>
+                    <div className={styles.button_holder}>
+                        <a href="tel:+8801716858723">Call Now</a>
+                    </div>
+                </div>
+
+                <div className={`${styles.item} ${styles.bg_green}`}>
+                    <h2>বি পজেটিভ</h2>
+                    <p>প্রাপ্তিসাধ্য: 01<br/>নিয়মিত দাতা: 38</p>
+                    <div className={styles.button_holder}>
+                        <a href="tel:+8801716858723">Call Now</a>
+                    </div>
+                </div>
+                <div className={`${styles.item} ${styles.bg_brown}`}>
+                    <h2>বি নেগেটিভ</h2>
+                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 08</p>
+                    <div className={styles.button_holder}>
+                        <a href="tel:+8801716858723">Call Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.category}>
+                <div className={`${styles.item} ${styles.bg_orange}`}>
+                    <h2>ও পজেটিভ</h2>
+                    <p>প্রাপ্তিসাধ্য: 01<br/>নিয়মিত দাতা: 77</p>
+                    <div className={styles.button_holder}>
+                        <a href="tel:+8801716858723">Call Now</a>
+                    </div>
+                </div>
+                <div className={`${styles.item} ${styles.bg_paste}`}>
+                    <h2>ও নেগেটিভ</h2>
+                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 04</p>
+                    <div className={styles.button_holder}>
+                        <a href="tel:+8801716858723">Call Now</a>
+                    </div>
+                </div>
+
+                <div className={`${styles.item} ${styles.bg_yellow}`}>
+                    <h2>এবি পজেটিভ</h2>
+                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 35</p>
+                    <div className={styles.button_holder}>
+                        <a href="tel:+8801716858723">Call Now</a>
+                    </div>
+                </div>
+                <div className={`${styles.item} ${styles.bg_blue}`}>
+                    <h2>এবি নেগেটিভ</h2>
+                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 02</p>
                     <div className={styles.button_holder}>
                         <a href="tel:+8801716858723">Call Now</a>
                     </div>
