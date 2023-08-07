@@ -52,6 +52,7 @@
 .category .item p {
     margin-bottom: 15px;
     font-size: 1.5EM;
+    text-align: left;
 }
 .category .item a {
     margin: auto;
