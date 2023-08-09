@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (<div>
     <Head>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons?display=swap" rel="stylesheet"></link>
     </Head>
     <header>
       <div className={styles.nav}>

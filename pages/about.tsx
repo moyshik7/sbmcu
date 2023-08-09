@@ -3,6 +3,7 @@ import styles from '@/styles/about.module.css'
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
 import FooterItem from '@/components/footer';
+import Image from 'next/image';
 
 
 const HomePage = () => {
@@ -80,7 +81,7 @@ const HomePage = () => {
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/history/history_1.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/history/history_1.webp" />
                     </div>
                     <br/>
                     <br/>
@@ -94,7 +95,7 @@ const HomePage = () => {
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/history/history_2.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/history/history_2.webp" />
                     </div>
                     <br/>
                     <br/>
@@ -108,7 +109,7 @@ const HomePage = () => {
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/history/history_3.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/history/history_3.webp" />
                     </div>
                     <br/>
                     <br/>
@@ -122,7 +123,7 @@ const HomePage = () => {
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/history/history_4.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/history/history_4.webp" />
                     </div>
                     <br/>
                     <br/>
@@ -136,19 +137,19 @@ const HomePage = () => {
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/history/history_5.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/history/history_5.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/history/history_6.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/history/history_6.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/history/history_7.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/history/history_7.webp" />
                     </div>
                     <br/>
                     <br/>
@@ -164,91 +165,91 @@ const HomePage = () => {
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/gallery/gallery_001.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_001.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/gallery/gallery_002.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_002.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/gallery/gallery_003.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_003.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/gallery/gallery_004.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_004.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/gallery/gallery_005.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_005.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/gallery/gallery_006.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_006.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/gallery/gallery_007.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_007.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/gallery/gallery_008.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_008.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/gallery/gallery_009.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_009.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/gallery/gallery_010.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_010.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/gallery/gallery_011.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_011.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.left} + ${styles.img}`}>
-                        <img src="/gallery/gallery_012.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_012.webp" />
                     </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className={`${styles.right} + ${styles.img}`}>
-                        <img src="/gallery/gallery_013.webp" />
+                        <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_013.webp" />
                     </div>
                 </div>
             </div>

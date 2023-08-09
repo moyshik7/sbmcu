@@ -101,9 +101,11 @@
 
 .category .textbox .img {
     width: 100%;
+    height: auto;
 }
 .category .textbox .img img {
     width: 100%;
+    height: auto;
     border-radius: 20px;
 }
 .category .textbox .left {
