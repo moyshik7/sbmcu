@@ -285,6 +285,8 @@ const HomePage = () => {
             
             <title>Our Works and Achievements - Sandhani</title>
             <link rel="icon" href="/favicon.ico" />
+
+            <link rel="preload" href="/gallery/gallery_001.webp" as="image" /> 
         </Head>
 
         <div className={styles.spacer}></div>
@@ -299,19 +301,19 @@ const HomePage = () => {
             </div>
             <div className={styles.category}>
                 <div className={styles.panel}>
-                     <Image placeholder="blur" width={1080} height={720} src={Image01} alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ কর্তৃক আয়োজিত 'হাসি ফুটুক প্রতিটি মুখে' এর প্রথম পর্বে 'জামিয়া ইসলামিয়া মুহাম্মাদী আশরাফুল মাদারিস ও এতিমখানা' তে ইফতার মাহফিল এবং এতিমখানার শিশুদের মাঝে কুরআন তিলাওয়াত এবং হামদ-নাত প্রতিযোগিতার আয়োজন করা হয়।"/>
+                     <Image placeholder="blur" width={1080} height={720} src={Image01} alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ কর্তৃক আয়োজিত 'হাসি ফুটুক প্রতিটি মুখে' এর প্রথম পর্বে 'জামিয়া ইসলামিয়া মুহাম্মাদী আশরাফুল মাদারিস ও এতিমখানা' তে ইফতার মাহফিল এবং এতিমখানার শিশুদের মাঝে কুরআন তিলাওয়াত এবং হামদ-নাত প্রতিযোগিতার আয়োজন করা হয়।" rel="preload"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ কর্তৃক আয়োজিত &quot;হাসি ফুটুক প্রতিটি মুখে&quot; এর প্রথম পর্বে &quot;জামিয়া ইসলামিয়া মুহাম্মাদী আশরাফুল মাদারিস ও এতিমখানা&quot; তে ইফতার মাহফিল এবং এতিমখানার শিশুদের মাঝে কুরআন তিলাওয়াত এবং হামদ-নাত প্রতিযোগিতার আয়োজন করা হয়।</p>
                     <br/>
                     <p lang="en">&quot;Smile on every face&quot; organized by Sandhani Bangladesh Medical College. In its first phase &quot;Jamia Islamia Muhammadi Ashraful Madaris & Orphanage&quot; Iftar party and Quran recitation and Hamd-naat competitions are organized among orphanage children.</p>
                 </div>
                 <div className={styles.panel}>
-                     <Image placeholder="blur" width={1080} height={720} src={Image02} alt="একুশ মানে মাথা নত না করা, একুশ মানে এগিয়ে যাওয়া। একুশের চেতনাকে হৃদয়ে ধারণ করে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট 'অমর একুশে বইমেলা -২০২৩' এ  আয়োজন করে 'স্বেচ্ছায় রক্তদান ও রক্তের গ্রুপ নির্ণয় কর্মসূচি'। সকলের স্বতঃস্ফূর্ত অংশগ্রহণে সফল হয় এ আয়োজন।"  loading="lazy"/>
+                     <Image placeholder="blur" width={1080} height={720} src={Image02} alt="একুশ মানে মাথা নত না করা, একুশ মানে এগিয়ে যাওয়া। একুশের চেতনাকে হৃদয়ে ধারণ করে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট 'অমর একুশে বইমেলা -২০২৩' এ  আয়োজন করে 'স্বেচ্ছায় রক্তদান ও রক্তের গ্রুপ নির্ণয় কর্মসূচি'। সকলের স্বতঃস্ফূর্ত অংশগ্রহণে সফল হয় এ আয়োজন।"  rel="preload"/>
                     <p lang="bn">একুশ মানে মাথা নত না করা, একুশ মানে এগিয়ে যাওয়া। একুশের চেতনাকে হৃদয়ে ধারণ করে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট &quot;অমর একুশে বইমেলা -২০২৩&quot; এ  আয়োজন করে &quot;স্বেচ্ছায় রক্তদান ও রক্তের গ্রুপ নির্ণয় কর্মসূচি&quot;। সকলের স্বতঃস্ফূর্ত অংশগ্রহণে সফল হয় এ আয়োজন।</p>
                     <br/>
                     <p lang="en">Twenty-first means not bowing down, twenty-one means moving forward. Keeping the spirit of Ekush in heart, Sandhani Bangladesh Medical College Unit organized &quot;Voluntary Blood Donation and Blood Grouping Program&quot; in &quot;Amar Ekushe Book Fair-2023&quot;. The event was successful with everyone&quot;s spontaneous participation.</p>
                 </div>
                 <div className={styles.panel}>
-                     <Image placeholder="blur" width={1080} height={720} src={Image03} alt="ঢাকা বিশ্ববিদ্যালয়ের ঐতিহাসিক বটতলা প্রাঙ্গনে আয়োজিত স্বেচ্ছায় রক্তদান কর্মসূচিতে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট অংশগ্রহণ করে।"  loading="lazy"/>
+                     <Image placeholder="blur" width={1080} height={720} src={Image03} alt="ঢাকা বিশ্ববিদ্যালয়ের ঐতিহাসিক বটতলা প্রাঙ্গনে আয়োজিত স্বেচ্ছায় রক্তদান কর্মসূচিতে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট অংশগ্রহণ করে।"  rel="preload"/>
                     <p lang="bn">ঢাকা বিশ্ববিদ্যালয়ের ঐতিহাসিক বটতলা প্রাঙ্গনে আয়োজিত স্বেচ্ছায় রক্তদান কর্মসূচিতে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট অংশগ্রহণ করে। </p>
                     <br/>
                     <p lang="en">Sandhani Bangladesh Medical College unit participated in the Voluntary Blood Donation Program organized at the historic Battala premises of Dhaka University.</p>

@@ -130,6 +130,7 @@ const HomePage = () => {
             
             <title>Executive Comittee Panel of Sandhani</title>
             <link rel="icon" href="/favicon.ico" />
+            <link rel="preload" href="/pfp/pfp_central.webp" as="image" /> 
         </Head>
 
         <div className={styles.spacer}></div>
