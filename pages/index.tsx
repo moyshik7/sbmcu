@@ -5,6 +5,12 @@ import Navbar from "@/components/navbar"
 import Script from 'next/script'
 import Link from 'next/link';
 import FooterItem from '@/components/footer';
+import Image from 'next/image';
+
+import ImageCR from "../public/pfp/pfp_central.webp";
+import ImagePR from "../public/pfp/pfp_president.webp";
+import ImageSR from "../public/pfp/pfp_secretary.webp";
+import ImageVP from "../public/pfp/pfp_vp.webp";
 
 
 const HomePage = () => {
@@ -119,28 +125,28 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp_central.webp" alt="picture of central comittee representative" width={100}/>
+                    <Image src={ImageCR} alt="picture of central comittee representative" />
                     <h2>লাজিম ইমাম চৌধুরী</h2>
                     <p>Central Comittee Rep.</p>
                     <br />
                     <p>Be a lifeline, donate blood; your small act, their second chance.</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp_president.webp" alt="picture of president"  width={100}/>
+                    <Image src={ImagePR} alt="picture of president" />
                     <h2>শাদমান কাদির</h2>
                     <p>President</p>
                     <br />
                     <p>Share the gift of life, donate blood, and inspire a chain of kindness. Be a hero. Donate today!</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp_vp.webp" alt="picture of vice president"  width={100}/>
+                    <Image src={ImageVP} alt="picture of vice president" />
                     <h2>ছাদেকুল ইসলাম স্বজন</h2>
                     <p>Vice President</p>
                     <br />
                     <p>Give life, give love. Donate blood today. Your precious gift saves lives.</p>
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp_secretary.webp" alt="picture of general secretary"  width={100}/>
+                    <Image src={ImageSR} alt="picture of general secretary" />
                     <h2>শাহরিয়ার হাসান আসিফ</h2>
                     <p>General Secretary</p>
                     <br />
