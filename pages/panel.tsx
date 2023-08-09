@@ -18,6 +18,69 @@ const HomePage = () => {
           		gtag('config', 'G-BZ71381ERP');
         	`}
       	</Script>
+        <script type="application/ld+json" suppressHydrationWarning>{`
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "url": "https://sbmcu.com/panel",
+            "numberOfItems": "3",
+            "itemListElement": [{
+                "@type": "Person",
+                "name": "লাজিম ইমাম চৌধুরী",
+                "affiliation: "Sandhani Bangladesh Medical College Unit",
+                "memberOf": "Sandhani Bangladesh Medical College Unit",
+                "worksFor": "Sandhani Bangladesh Medical College Unit",
+                "alumniOf": "Bangladesh Medical College",
+                "hasOccupation": "Student",
+                "homeLocation": "Dhaka, Bangladesh",
+                "jobTitle": "Central Comittee Rep.",
+                "knows": "Mahmud Oyshik",
+                "knowsAbout": "Sandhani Bangladesh Medical College Unit",
+                "nationality": "Bangladeshi",
+                "workLocation": "Dhanmondi, Dhaka, Bangladesh",
+                "sameAs": "https://www.facebook.com/lazimc",
+                "image": "https://sbmcu.com/pfp/pfp_central.webp",
+                "url": "https://sbmcu.com/panel#cr",
+                "gender": "Male"
+            }, {
+                "@type": "Person",
+                "name": "শাদমান কাদির",
+                "affiliation: "Sandhani Bangladesh Medical College Unit",
+                "memberOf": "Sandhani Bangladesh Medical College Unit",
+                "worksFor": "Sandhani Bangladesh Medical College Unit",
+                "alumniOf": "Bangladesh Medical College",
+                "hasOccupation": "Student",
+                "homeLocation": "Dhaka, Bangladesh",
+                "jobTitle": "President",
+                "knows": "Mahmud Oyshik",
+                "knowsAbout": "Sandhani Bangladesh Medical College Unit",
+                "nationality": "Bangladeshi",
+                "workLocation": "Dhanmondi, Dhaka, Bangladesh",
+                "sameAs": "https://www.facebook.com/shadmankadir.shadman",
+                "image": "https://sbmcu.com/pfp/pfp_president.webp",
+                "url": "https://sbmcu.com/panel#pr",
+                "gender": "Male"
+            },{
+                "@type": "Person",
+                "name": "শাহরিয়ার হাসান আসিফ",
+                "affiliation: "Sandhani Bangladesh Medical College Unit",
+                "memberOf": "Sandhani Bangladesh Medical College Unit",
+                "worksFor": "Sandhani Bangladesh Medical College Unit",
+                "alumniOf": "Bangladesh Medical College",
+                "hasOccupation": "Student",
+                "homeLocation": "Dhaka, Bangladesh",
+                "jobTitle": "General Secretary",
+                "knows": "Mahmud Oyshik",
+                "knowsAbout": "Sandhani Bangladesh Medical College Unit",
+                "nationality": "Bangladeshi",
+                "workLocation": "Dhanmondi, Dhaka, Bangladesh",
+                "sameAs": "https://www.facebook.com/profile.php?id=100008734171659",
+                "image": "https://sbmcu.com/pfp/pfp_secretary.webp",
+                "url": "https://sbmcu.com/panel#sr",
+                "gender": "Male"
+            },]
+        }`}
+        </script>
         <Head>
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
@@ -65,21 +128,21 @@ const HomePage = () => {
 
         <Navbar />
 
-        <main className={styles.content}>
+        <main className={styles.content} id={"main"}>
             <div className={styles.category}>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                <div className={`${styles.panel} ${styles.bg_gray}`} id={"cr"}>
                     <img src="/pfp/pfp_central.webp" alt="picture of central comittee representative" />
                     <h2>লাজিম ইমাম চৌধুরী</h2>
                     <p>Central Comittee Rep.</p>
                     <br />
                 </div>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                <div className={`${styles.panel} ${styles.bg_gray}`} id={"pr"}>
                     <img src="/pfp/pfp_president.webp" alt="picture of president" />
                     <h2>শাদমান কাদির</h2>
                     <p>President</p>
                     <br />
                 </div>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
+                <div className={`${styles.panel} ${styles.bg_gray}`} id={"sr"}>
                     <img src="/pfp/pfp_secretary.webp" alt="picture of general secretary" />
                     <h2>শাহরিয়ার হাসান আসিফ</h2>
                     <p>General Secretary</p>
