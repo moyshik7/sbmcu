@@ -299,7 +299,7 @@ const HomePage = () => {
             </div>
             <div className={styles.category}>
                 <div className={styles.panel}>
-                     <Image placeholder="blur" width={1080} height={720} src={Image01} alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ কর্তৃক আয়োজিত 'হাসি ফুটুক প্রতিটি মুখে' এর প্রথম পর্বে 'জামিয়া ইসলামিয়া মুহাম্মাদী আশরাফুল মাদারিস ও এতিমখানা' তে ইফতার মাহফিল এবং এতিমখানার শিশুদের মাঝে কুরআন তিলাওয়াত এবং হামদ-নাত প্রতিযোগিতার আয়োজন করা হয়।"  loading="lazy"/>
+                     <Image placeholder="blur" width={1080} height={720} src={Image01} alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ কর্তৃক আয়োজিত 'হাসি ফুটুক প্রতিটি মুখে' এর প্রথম পর্বে 'জামিয়া ইসলামিয়া মুহাম্মাদী আশরাফুল মাদারিস ও এতিমখানা' তে ইফতার মাহফিল এবং এতিমখানার শিশুদের মাঝে কুরআন তিলাওয়াত এবং হামদ-নাত প্রতিযোগিতার আয়োজন করা হয়।"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ কর্তৃক আয়োজিত &quot;হাসি ফুটুক প্রতিটি মুখে&quot; এর প্রথম পর্বে &quot;জামিয়া ইসলামিয়া মুহাম্মাদী আশরাফুল মাদারিস ও এতিমখানা&quot; তে ইফতার মাহফিল এবং এতিমখানার শিশুদের মাঝে কুরআন তিলাওয়াত এবং হামদ-নাত প্রতিযোগিতার আয়োজন করা হয়।</p>
                     <br/>
                     <p lang="en">&quot;Smile on every face&quot; organized by Sandhani Bangladesh Medical College. In its first phase &quot;Jamia Islamia Muhammadi Ashraful Madaris & Orphanage&quot; Iftar party and Quran recitation and Hamd-naat competitions are organized among orphanage children.</p>
