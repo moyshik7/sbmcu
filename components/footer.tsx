@@ -46,7 +46,7 @@ const FooterItem = () => {
         </div>
     </div>
     <div className={styles.bottom}>
-        Sandhani BMC Session 2022-2023; Made By <Link target="_blank" href="https://www.facebook.com/mahmud.oyshik">Sayuri</Link>
+        Sandhani BMC Session 2022-2023; Made By <Link target="_blank" href="https://www.facebook.com/mahmud.oyshik">Oyshik</Link>
     </div>
 </div>);
 };
