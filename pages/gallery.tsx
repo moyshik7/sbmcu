@@ -26,7 +26,7 @@ const HomePage = () => {
      		"name": "Gallery of Sandhani Bangladesh Medical COllege Unit",
             "url": "https://sbmcu.com/gallery",
   			"description": "Gallery of Sandhani Bangladesh Medical COllege Unit at Various Occations",
-            "numberOfItems": "5",
+            "numberOfItems": "18",
             "itemListElement": [{
                 "@type": ["ListItem", "ImageObject"],
                 "contentUrl": "https://sbmcu.com/gallery/gallery_001.webp",
@@ -225,7 +225,7 @@ const HomePage = () => {
                     "name": "Mahmud Oyshik"
                 },
                 "copyrightNotice": "Mahmud Oyshik"
-            }, ]
+            }]
         }`}
         </Script>
         <Head>
