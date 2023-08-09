@@ -7,26 +7,31 @@
 <url>
     <loc>https://sbmcu.com/about</loc>
     <lastmod>2023-07-31T06:16:06+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>0.60</priority>
 </url>
 <url>
     <loc>https://sbmcu.com/request</loc>
-    <lastmod>2023-07-31T06:16:06+00:00</lastmod>
-    <priority>1</priority>
+    <lastmod>2023-0-09T06:16:06+00:00</lastmod>
+    <priority>1.00</priority>
 </url>
 <url>
     <loc>https://sbmcu.com/gallery</loc>
-    <lastmod>2023-07-31T06:16:06+00:00</lastmod>
+    <lastmod>2023-0-09T06:16:06+00:00</lastmod>
     <priority>0.80</priority>
 </url>
 <url>
     <loc>https://sbmcu.com/membership</loc>
     <lastmod>2023-07-31T06:16:06+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>0.60</priority>
 </url>
 <url>
     <loc>https://sbmcu.com/panel</loc>
-    <lastmod>2023-07-31T06:16:06+00:00</lastmod>
+    <lastmod>2023-0-09T06:16:06+00:00</lastmod>
     <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://sbmcu.com/tos</loc>
+    <lastmod>2023-0-09T06:16:06+00:00</lastmod>
+    <priority>0.50</priority>
 </url>
 </urlset>

@@ -1,12 +1,94 @@
 User-agent: *
 Allow: /
+Allow: /gallery/
+Allow: /panel/
+Allow: /membership/
+Allow: /tos/
+Allow: /about/
+Allow: /request/
 Disallow: /rick
 Disallow: /rick/*
-Disallow: /admin
+Disallow: /admin/
 
-User-agent: fardin
+
+User-agent: Googlebot
+Allow: /
+Allow: /gallery/
+Allow: /panel/
+Allow: /membership/
+Allow: /tos/
+Allow: /about/
+Allow: /request/
+Disallow: /rick
+Disallow: /rick/*
+Disallow: /admin/
+
+
+User-agent: 
+Allow: /
+Allow: /gallery/
+Allow: /panel/
+Allow: /membership/
+Allow: /tos/
+Allow: /about/
+Allow: /request/
+Disallow: /rick
+Disallow: /rick/*
+Disallow: /admin/
+
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /gallery/
+Allow: /panel/
+Allow: /membership/
+Allow: /tos/
+Allow: /about/
+Allow: /request/
+Disallow: /rick
+Disallow: /rick/*
+Disallow: /admin/
+
+
+User-agent: GoogleOther
+Allow: /
+Allow: /gallery/
+Allow: /panel/
+Allow: /membership/
+Allow: /tos/
+Allow: /about/
+Allow: /request/
+Disallow: /rick
+Disallow: /rick/*
+Disallow: /admin/
+
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: X-Robots-Tag
+Allow: /
+
+
+
+
+
+User-agent: fardin-userbot
 Allow: /nourin
 Disallow: /istia
+
+User-agent: fahim-userbot
+Allow: /adiba-anika/
+Disallow: /priya/
 
 Host: https://sbmcu.com
 
