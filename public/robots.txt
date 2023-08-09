@@ -24,7 +24,7 @@ Disallow: /rick/*
 Disallow: /admin/
 
 
-User-agent: 
+User-agent: bingbot
 Allow: /
 Allow: /gallery/
 Allow: /panel/
