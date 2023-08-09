@@ -21,17 +21,21 @@ const HomePage = () => {
         <script type="application/ld+json" suppressHydrationWarning>{`
         {
             "@context": "https://schema.org",
-            "@type": "ItemList",
+            "@type": ["ItemList", "Person"],
+     		"name": "Panel Members of Sandhani Bangladesh Medical COllege Unit",
+  			"itemListOrder": "Ascending",
             "url": "https://sbmcu.com/panel",
+  			"description": "Panel / Commitee members of Sandhani Bangladesh Medical College Unit Session 2022-2023",
             "numberOfItems": "3",
             "itemListElement": [{
-                "@type": "Person",
-                "name": "লাজিম ইমাম চৌধুরী",
-                "affiliation: "Sandhani Bangladesh Medical College Unit",
+                "@type": ["ListItem", "Person"],
+                "name": "Lazim Imam Choudhuri",
                 "memberOf": "Sandhani Bangladesh Medical College Unit",
                 "worksFor": "Sandhani Bangladesh Medical College Unit",
+                "position": "1",
                 "alumniOf": "Bangladesh Medical College",
-                "hasOccupation": "Student",
+                "occupationLocation": "Dhanmondi, Dhaka, Bangladesh",
+                "estimatedSalary": "0tk",
                 "homeLocation": "Dhaka, Bangladesh",
                 "jobTitle": "Central Comittee Rep.",
                 "knows": "Mahmud Oyshik",
@@ -43,13 +47,14 @@ const HomePage = () => {
                 "url": "https://sbmcu.com/panel#cr",
                 "gender": "Male"
             }, {
-                "@type": "Person",
-                "name": "শাদমান কাদির",
-                "affiliation: "Sandhani Bangladesh Medical College Unit",
+                "@type": ["ListItem", "Person"],
+                "name": "Shadman Kadir",
                 "memberOf": "Sandhani Bangladesh Medical College Unit",
                 "worksFor": "Sandhani Bangladesh Medical College Unit",
+                "position": "2",
                 "alumniOf": "Bangladesh Medical College",
-                "hasOccupation": "Student",
+                "occupationLocation": "Dhanmondi, Dhaka, Bangladesh",
+                "estimatedSalary": "0tk",
                 "homeLocation": "Dhaka, Bangladesh",
                 "jobTitle": "President",
                 "knows": "Mahmud Oyshik",
@@ -60,16 +65,18 @@ const HomePage = () => {
                 "image": "https://sbmcu.com/pfp/pfp_president.webp",
                 "url": "https://sbmcu.com/panel#pr",
                 "gender": "Male"
-            },{
-                "@type": "Person",
-                "name": "শাহরিয়ার হাসান আসিফ",
-                "affiliation: "Sandhani Bangladesh Medical College Unit",
+            }, {
+                "@type": ["ListItem", "Person"],
+                "name": "Shahriar Hasan Asif",
                 "memberOf": "Sandhani Bangladesh Medical College Unit",
                 "worksFor": "Sandhani Bangladesh Medical College Unit",
+                "position": "3",
                 "alumniOf": "Bangladesh Medical College",
-                "hasOccupation": "Student",
+                "occupationLocation": "Dhanmondi, Dhaka, Bangladesh",
+                                
+                "estimatedSalary": "0tk",
                 "homeLocation": "Dhaka, Bangladesh",
-                "jobTitle": "General Secretary",
+                "jobTitle": "President",
                 "knows": "Mahmud Oyshik",
                 "knowsAbout": "Sandhani Bangladesh Medical College Unit",
                 "nationality": "Bangladeshi",
@@ -78,7 +85,7 @@ const HomePage = () => {
                 "image": "https://sbmcu.com/pfp/pfp_secretary.webp",
                 "url": "https://sbmcu.com/panel#sr",
                 "gender": "Male"
-            },]
+            }]
         }`}
         </script>
         <Head>
