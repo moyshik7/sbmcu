@@ -29,9 +29,203 @@ const HomePage = () => {
             "numberOfItems": "5",
             "itemListElement": [{
                 "@type": ["ListItem", "ImageObject"],
-                "contentUrl": "https://example.com/photos/1x1/black-labrador-puppy.jpg",
-                "license": "https://example.com/tos",
-            }]
+                "contentUrl": "https://sbmcu.com/gallery/gallery_001.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "In the first phase of 'Hasi Futuk Every Face' organized by Sandhani Bangladesh Medical College & 'Jamia Islamia Muhammadi Ashraful Madarasa & Orphanage', Iftar Mahfil and Quran Recitation and Hamd-Naat competition was organized among Orphanage children.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_002.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "Twenty-one means not bowing down, twenty-one means moving forward. Keeping the spirit of Ekush in heart, Thanthani Bangladesh Medical College Unit organized 'Voluntary Blood Donation and Blood Grouping Program' in 'Amar Ekushe Book Fair-2023'. The event was successful with everyone's spontaneous participation.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_003.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "Bangladesh Medical College unit participated in the Voluntary Blood Donation Program organized at the historic Battala premises of Dhaka University.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_004.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "An Iftar and Doa Mahfil was organized at the Bangladesh Medical College Auditorium on the occasion of the foundation anniversary of Sandhani Bangladesh Medical College Unit.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_005.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "On the occasion of Holy Buddha Purnima, a free medical camp was organized at International Buddhist Vihar, Merul Badda, courtesy of Sandhani Bangladesh Medical College Unit. Free blood sugar testing, blood group testing and blood pressure measurement are conducted in the camp along with voluntary blood donation.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_006.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "On the occasion of Thandi's 46th founding anniversary, a rally was organized with a cake-cutting program at Bangladesh Medical College premises.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_007.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "Amar Ekushey Book Fair- 2023 final episode.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_008.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "A health camp was held in Ramganj of Laxmipur district in collaboration with Sandhani Bangladesh Medical College Unit and organized by Smart Academy. General health check up, blood grouping and diabetes check up were done on the occasion. Around 400 people receive various services in this camp throughout the day.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_009.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "A seminar titled 'Cervical Cancer & It's Prevention' was organized by Sandhani Bangladesh Medical College Unit and in collaboration with Incepta Pharmaceutical Limited.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_010.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "On the occasion of the 47th martyrdom anniversary and National Mourning Day of the Father of the Nation Bangabandhu Sheikh Mujibur Rahman and his family members, Sandhani Bangladesh Medical College Unit organized free blood group testing, blood pressure testing and blood donation program in the college premises.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_011.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "On the occasion of Eid-ul-Fitr, Sandhani Bangladesh Medical College Unit exchanged advance Eid greetings with the respected teaching staff of Bangladesh Medical College.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_012.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "On the occasion of Great Victory Day, Blood Donation Program was organized by Elite Force Bangladesh in collaboration with Sandhani Bangladesh Medical College Unit. Members of Elite Force spontaneously participated in the event.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_013.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "An Iftar Mahfil was organized by Sandhani Bangladesh Medical College Unit. Professor Dr. Mizanur Rahman Sir was present in the ceremony.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_014.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "Sandhani Bangladesh Medical College Unit exchanged Eid-ul-Fitr greetings with Honorable Principal of Bangladesh Medical College, Honorable Director of Bangladesh Medical College Hospital and Honorable Doctors.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_015.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "On the occasion of Great Victory Day, Sandhani Bangladesh Medical College Unit organized free blood group, blood glucose level and blood pressure testing and voluntary blood donation program in the college premises.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_016.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "Sandhani, Bangladesh Medical College Unit welcomes new college students (BM-36) and 'Training on Blood Grouping & Blood Screening' Workshops on topics and post-workshop quiz competitions are organized.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_017.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "Sandhani Bangladesh Medical College Unit exchanged Eid-ul-Fitr greetings with Honorable Principal of Bangladesh Medical College, Honorable Director of Bangladesh Medical College Hospital and Honorable Doctors.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, {
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://sbmcu.com/gallery/gallery_018.webp",
+                "license": "https://sbmcu.com/tos",
+                "acquireLicensePage": "https://sbmcu.com/tos#copy",
+                "creditText": "On the occasion of the Great Independence Day, Sandhani Bangladesh Medical College Unit provided Iftar to the poor and helpless.",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Mahmud Oyshik"
+                },
+                "copyrightNotice": "Mahmud Oyshik"
+            }, ]
         }`}
         </Script>
         <Head>
@@ -89,84 +283,120 @@ const HomePage = () => {
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_001.webp" alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ কর্তৃক আয়োজিত 'হাসি ফুটুক প্রতিটি মুখে' এর প্রথম পর্বে 'জামিয়া ইসলামিয়া মুহাম্মাদী আশরাফুল মাদারিস ও এতিমখানা' তে ইফতার মাহফিল এবং এতিমখানার শিশুদের মাঝে কুরআন তিলাওয়াত এবং হামদ-নাত প্রতিযোগিতার আয়োজন করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ কর্তৃক আয়োজিত &quot;হাসি ফুটুক প্রতিটি মুখে&quot; এর প্রথম পর্বে &quot;জামিয়া ইসলামিয়া মুহাম্মাদী আশরাফুল মাদারিস ও এতিমখানা&quot; তে ইফতার মাহফিল এবং এতিমখানার শিশুদের মাঝে কুরআন তিলাওয়াত এবং হামদ-নাত প্রতিযোগিতার আয়োজন করা হয়।</p>
+                    <br/>
+                    <p lang="en">&quot;Smile on every face&quot; organized by Sandhani Bangladesh Medical College. In its first phase &quot;Jamia Islamia Muhammadi Ashraful Madaris & Orphanage&quot; Iftar party and Quran recitation and Hamd-naat competitions are organized among orphanage children.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_002.webp" alt="একুশ মানে মাথা নত না করা, একুশ মানে এগিয়ে যাওয়া। একুশের চেতনাকে হৃদয়ে ধারণ করে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট 'অমর একুশে বইমেলা -২০২৩' এ  আয়োজন করে 'স্বেচ্ছায় রক্তদান ও রক্তের গ্রুপ নির্ণয় কর্মসূচি'। সকলের স্বতঃস্ফূর্ত অংশগ্রহণে সফল হয় এ আয়োজন।" width={100} loading="lazy"/>
                     <p lang="bn">একুশ মানে মাথা নত না করা, একুশ মানে এগিয়ে যাওয়া। একুশের চেতনাকে হৃদয়ে ধারণ করে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট &quot;অমর একুশে বইমেলা -২০২৩&quot; এ  আয়োজন করে &quot;স্বেচ্ছায় রক্তদান ও রক্তের গ্রুপ নির্ণয় কর্মসূচি&quot;। সকলের স্বতঃস্ফূর্ত অংশগ্রহণে সফল হয় এ আয়োজন।</p>
+                    <br/>
+                    <p lang="en">Twenty-first means not bowing down, twenty-one means moving forward. Keeping the spirit of Ekush in heart, Sandhani Bangladesh Medical College Unit organized &quot;Voluntary Blood Donation and Blood Grouping Program&quot; in &quot;Amar Ekushe Book Fair-2023&quot;. The event was successful with everyone&quot;s spontaneous participation.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_003.webp" alt="ঢাকা বিশ্ববিদ্যালয়ের ঐতিহাসিক বটতলা প্রাঙ্গনে আয়োজিত স্বেচ্ছায় রক্তদান কর্মসূচিতে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট অংশগ্রহণ করে।" width={100} loading="lazy"/>
                     <p lang="bn">ঢাকা বিশ্ববিদ্যালয়ের ঐতিহাসিক বটতলা প্রাঙ্গনে আয়োজিত স্বেচ্ছায় রক্তদান কর্মসূচিতে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট অংশগ্রহণ করে। </p>
+                    <br/>
+                    <p lang="en">Sandhani Bangladesh Medical College unit participated in the Voluntary Blood Donation Program organized at the historic Battala premises of Dhaka University.</p>
                 </div>
             </div>
             <div className={styles.category}>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_004.webp" alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিটের প্রতিষ্ঠাবার্ষিকী উপলক্ষে বাংলাদেশ মেডিকেল কলেজ অডিটোরিয়ামে একটি ইফতার ও দোয়া মাহফিলের আয়োজন করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিটের প্রতিষ্ঠাবার্ষিকী উপলক্ষে বাংলাদেশ মেডিকেল কলেজ অডিটোরিয়ামে একটি ইফতার ও দোয়া মাহফিলের আয়োজন করা হয়। </p>
+                    <br/>
+                    <p lang="en">An Iftar and Doa Mahfil was organized at the Bangladesh Medical College Auditorium on the occasion of the foundation anniversary of Sandhani Bangladesh Medical College Unit.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_005.webp" alt="পবিত্র বুদ্ধ পূর্ণিমা উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিটের সৌজন্যে আন্তর্জাতিক বৌদ্ধ বিহার,মেরুল বাড্ডা - তে ফ্রি মেডিকেল ক্যাম্পের আয়োজন করা হয়। উক্ত ক্যাম্পে স্বেচ্ছায় রক্তদান সহ বিনামূল্যে ব্লাড সুগার নির্ণয়,ব্লাড গ্রুপ নির্ণয় এবং ব্লাড প্রেসার পরিমাপ করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">পবিত্র বুদ্ধ পূর্ণিমা উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিটের সৌজন্যে আন্তর্জাতিক বৌদ্ধ বিহার,মেরুল বাড্ডা - তে ফ্রি মেডিকেল ক্যাম্পের আয়োজন করা হয়। উক্ত ক্যাম্পে স্বেচ্ছায় রক্তদান সহ বিনামূল্যে ব্লাড সুগার নির্ণয়,ব্লাড গ্রুপ নির্ণয় এবং ব্লাড প্রেসার পরিমাপ করা হয়।</p>
+                    <br/>
+                    <p lang="en">On the occasion of Holy Buddha Purnima, a free medical camp was organized at International Buddhist Vihar, Merul Badda, courtesy of Sandhani Bangladesh Medical College Unit. Free blood sugar testing, blood group testing and blood pressure measurement are conducted in the camp along with voluntary blood donation.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_006.webp" alt="আজ সন্ধানীর ৪৬তম প্রতিষ্ঠাবার্ষিকী উপলক্ষে বাংলাদেশ মেডিকেল কলেজ প্রাঙ্গনে কেক কাটা কর্মসূচি সহ র‍্যালির আয়োজন করা হয়।" width={100} loading="lazy"/>
-                    <p lang="bn">আজ সন্ধানীর ৪৬তম প্রতিষ্ঠাবার্ষিকী উপলক্ষে বাংলাদেশ মেডিকেল কলেজ প্রাঙ্গনে কেক কাটা কর্মসূচি সহ র‍্যালির আয়োজন করা হয়।</p>
+                    <p lang="bn">সন্ধানীর ৪৬তম প্রতিষ্ঠাবার্ষিকী উপলক্ষে বাংলাদেশ মেডিকেল কলেজ প্রাঙ্গনে কেক কাটা কর্মসূচি সহ র‍্যালির আয়োজন করা হয়।</p>
+                    <br/>
+                    <p lang="en">On the occasion of Thandi&quot;s 46th founding anniversary, a rally was organized with a cake-cutting program at Bangladesh Medical College premises.</p>
                 </div>
             </div>
-            <div className={styles.category}>
+            <div className={styles.category} >
                 <div className={styles.panel}>
-                    <img src="/gallery/gallery_007.webp" alt="অমর একুশে বইমেলা- ২০২৩ সমাপ্তি পর্ব।" width={100} loading="lazy"/>
+                    <img src="/gallery/gallery_007.webp" alt="অমর একুশে বইমেলা- ২০২৩ সমাপ্তি পর্ব।" width={100} height={"auto"} loading="lazy"/>
                     <p lang="bn">অমর একুশে বইমেলা- ২০২৩ সমাপ্তি পর্ব।</p>
+                    <br/>
+                    <p lang="en">Amar Ekushey Book Fair- 2023 final episode.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_008.webp" alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর সহযোগিতায় ও স্মার্ট একাডেমির আয়োজনে লক্ষ্মীপুর জেলার রামগঞ্জে একটি  হেলথ ক্যাম্প অনুষ্ঠিত হয়। উক্ত অনুষ্ঠানে জেনারেল হেলথ চেক আপ, ব্লাড গ্রুপিং ও ডায়াবেটিস চেক আপ করা হয়।  সারাদিন ব্যাপী এই ক্যাম্পে প্রায় 400 মানুষ বিভিন্ন ধরণের সেবা গ্রহণ করেন।" width={100} loading="lazy"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর সহযোগিতায় ও স্মার্ট একাডেমির আয়োজনে লক্ষ্মীপুর জেলার রামগঞ্জে একটি  হেলথ ক্যাম্প অনুষ্ঠিত হয়। উক্ত অনুষ্ঠানে জেনারেল হেলথ চেক আপ, ব্লাড গ্রুপিং ও ডায়াবেটিস চেক আপ করা হয়।  সারাদিন ব্যাপী এই ক্যাম্পে প্রায় 400 মানুষ বিভিন্ন ধরণের সেবা গ্রহণ করেন।</p>
+                    <br/>
+                    <p lang="en">A health camp was held in Ramganj of Laxmipur district in collaboration with Sandhani Bangladesh Medical College Unit and organized by Smart Academy. General health check up, blood grouping and diabetes check up were done on the occasion. Around 400 people receive various services in this camp throughout the day.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_009.webp" alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিটের আয়োজনে ও Incepta Pharmaceutical Limited এর সহযোগিতায় 'Cervical Cancer & It's Prevention' শীর্ষক সেমিনারের আয়োজন করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিটের আয়োজনে ও Incepta Pharmaceutical Limited এর সহযোগিতায় &quot;Cervical Cancer & It&quot;s Prevention&quot; শীর্ষক সেমিনারের আয়োজন করা হয়।</p>
+                    <br/>
+                    <p lang="en">&quot;Cervical Cancer & It&quot;s Prevention&quot; organized by Sandhani Bangladesh Medical College Unit and in collaboration with Incepta Pharmaceutical Limited. The seminar was organized.</p>
                 </div>
             </div>
             <div className={styles.category}>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_010.webp" alt="জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান ও তার পরিবারের সদস্যদের এর ৪৭তম শাহাদাতবার্ষিকী ও জাতীয় শোক দিবস উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর পক্ষ থেকে কলেজ প্রাঙ্গণে  বিনামূল্যে রক্তের গ্রুপ নির্ণয়, রক্তচাপ নির্ণয় এবং রক্তদান কর্মসূচির আয়োজন করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান ও তার পরিবারের সদস্যদের এর ৪৭তম শাহাদাতবার্ষিকী ও জাতীয় শোক দিবস উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর পক্ষ থেকে কলেজ প্রাঙ্গণে  বিনামূল্যে রক্তের গ্রুপ নির্ণয়, রক্তচাপ নির্ণয় এবং রক্তদান কর্মসূচির আয়োজন করা হয়।</p>
+                    <br/>
+                    <p lang="en">On the occasion of the 47th martyrdom anniversary and National Mourning Day of the Father of the Nation Bangabandhu Sheikh Mujibur Rahman and his family members, Sandhani Bangladesh Medical College Unit organized free blood group testing, blood pressure testing and blood donation program in the college premises.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_011.webp" alt="ঈদ উল ফিতর উপলক্ষে সন্ধানী  বাংলাদেশ মেডিকেল কলেজ ইউনিটের পক্ষ থেকে বাংলাদেশ মেডিকেল কলেজের শ্রদ্ধেয় শিক্ষক মন্ডলী এর সাথে অগ্রীম ঈদ শুভেচ্ছা বিনিময়..." width={100} loading="lazy"/>
-                    <p lang="bn">ঈদ উল ফিতর উপলক্ষে সন্ধানী  বাংলাদেশ মেডিকেল কলেজ ইউনিটের পক্ষ থেকে বাংলাদেশ মেডিকেল কলেজের শ্রদ্ধেয় শিক্ষক মন্ডলী এর সাথে অগ্রীম ঈদ শুভেচ্ছা বিনিময়...</p>
+                    <p lang="bn">ঈদ উল ফিতর উপলক্ষে সন্ধানী  বাংলাদেশ মেডিকেল কলেজ ইউনিটের পক্ষ থেকে বাংলাদেশ মেডিকেল কলেজের শ্রদ্ধেয় শিক্ষক মন্ডলী এর সাথে অগ্রীম ঈদ শুভেচ্ছা বিনিময়</p>
+                    <br/>
+                    <p lang="en">On the occasion of Eid-ul-Fitr, Sandhani Bangladesh Medical College Unit exchanged advance Eid greetings with the respected teaching staff of Bangladesh Medical College.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_012.webp" alt="মহান বিজয় দিবস উপলক্ষে Elite Force Bangladesh এর আয়োজনে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর সহযোগিতায় রক্তদান কর্মসূচি পালিত হয়। উক্ত অনুষ্ঠানে Elite Force এর সদস্যরা স্বতঃস্ফূর্তভাবে অংশগ্রহণ করেন।" width={100} loading="lazy"/>
                     <p lang="bn">মহান বিজয় দিবস উপলক্ষে Elite Force Bangladesh এর আয়োজনে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর সহযোগিতায় রক্তদান কর্মসূচি পালিত হয়। উক্ত অনুষ্ঠানে Elite Force এর সদস্যরা স্বতঃস্ফূর্তভাবে অংশগ্রহণ করেন।</p>
+                    <br/>
+                    <p lang="en">On the occasion of Great Victory Day, Blood Donation Program was organized by Elite Force Bangladesh in collaboration with Sandhani Bangladesh Medical College Unit. Members of Elite Force spontaneously participated in the event.</p>
                 </div>
             </div>
             <div className={styles.category}>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_013.webp" alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট কর্তৃক এক ইফতার মাহফিল আয়োজন করা হয়। উক্ত মাহফিলে উপস্থিত ছিলেন অধ্যাপক ডা: মিজানুর রহমান স্যার।" width={100} loading="lazy"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট কর্তৃক এক ইফতার মাহফিল আয়োজন করা হয়। উক্ত মাহফিলে উপস্থিত ছিলেন অধ্যাপক ডা: মিজানুর রহমান স্যার।</p>
+                    <br/>
+                    <p lang="en">An Iftar Mahfil was organized by Sandhani Bangladesh Medical College Unit. Professor Dr. Mizanur Rahman Sir was present in the ceremony.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_014.webp" alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট কর্তৃক বাংলাদেশ মেডিকেল কলেজের সম্মানিত অধ্যক্ষ,  বাংলাদেশ মেডিকেল কলেজ হাসপাতাল -এর সম্মানিত পরিচালক  এবং সম্মানিত চিকিৎসকবৃন্দের সাথে পবিত্র ঈদ-উল-ফিতর এর শুভেচ্ছা বিনিময় করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট কর্তৃক বাংলাদেশ মেডিকেল কলেজের সম্মানিত অধ্যক্ষ,  বাংলাদেশ মেডিকেল কলেজ হাসপাতাল -এর সম্মানিত পরিচালক  এবং সম্মানিত চিকিৎসকবৃন্দের সাথে পবিত্র ঈদ-উল-ফিতর এর শুভেচ্ছা বিনিময় করা হয়।</p>
+                    <br/>
+                    <p lang="en">Sandhani Bangladesh Medical College Unit exchanged Eid-ul-Fitr greetings with Honorable Principal of Bangladesh Medical College, Honorable Director of Bangladesh Medical College Hospital and Honorable Doctors.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_015.webp" alt="মহান বিজয় দিবস উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর পক্ষ থেকে কলেজ প্রাঙ্গণে বিনামূল্যে রক্তের গ্রুপ, রক্তের গ্লুকোজের পরিমাণ ও রক্তচাপ নির্ণয় এবং স্বেচ্ছায় রক্তদান কর্মসূচির আয়োজন করা হয়।" width={100} loading="lazy"/>
-                    <p lang="bn">মহান বিজয় দিবস উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর পক্ষ থেকে কলেজ প্রাঙ্গণে বিনামূল্যে রক্তের গ্রুপ, রক্তের গ্লুকোজের পরিমাণ ও রক্তচাপ নির্ণয় এবং স্বেচ্ছায় রক্তদান কর্মসূচির আয়োজন করা হয়। </p>
+                    <p lang="bn">মহান বিজয় দিবস উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এর পক্ষ থেকে কলেজ প্রাঙ্গণে বিনামূল্যে রক্তের গ্রুপ, রক্তের গ্লুকোজের পরিমাণ ও রক্তচাপ নির্ণয় এবং স্বেচ্ছায় রক্তদান কর্মসূচির আয়োজন করা হয়।</p>
+                    <br/>
+                    <p lang="en">On the occasion of Great Victory Day, Sandhani Bangladesh Medical College Unit organized free blood group, blood glucose level and blood pressure testing and voluntary blood donation program in the college premises.</p>
                 </div>
             </div>
             <div className={styles.category}>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_016.webp" alt="সন্ধানী, বাংলাদেশ মেডিকেল কলেজ ইউনিটের পক্ষ থেকে কলেজের নবাগত শিক্ষার্থীদের (BM-36) বরণ করে নেয়া হয় এবং 'Training on Blood Grouping & Blood Screening' শীর্ষক ওয়ার্কশপ ও ওয়ার্কশপ পরবর্তী কুইজ প্রতিযোগিতার আয়োজন করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">সন্ধানী, বাংলাদেশ মেডিকেল কলেজ ইউনিটের পক্ষ থেকে কলেজের নবাগত শিক্ষার্থীদের (BM-36) বরণ করে নেয়া হয় এবং &quot;Training on Blood Grouping & Blood Screening&quot; শীর্ষক ওয়ার্কশপ ও ওয়ার্কশপ পরবর্তী কুইজ প্রতিযোগিতার আয়োজন করা হয়।</p>
+                    <br/>
+                    <p lang="en">Sandhani, Bangladesh Medical College Unit welcomes new college students (BM-36) and &quot;Training on Blood Grouping & Blood Screening&quot; Workshops on topics and post-workshop quiz competitions are organized.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_017.webp" alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট কর্তৃক বাংলাদেশ মেডিকেল কলেজের সম্মানিত অধ্যক্ষ,  বাংলাদেশ মেডিকেল কলেজ হাসপাতাল -এর সম্মানিত পরিচালক  এবং সম্মানিত চিকিৎসকবৃন্দের সাথে পবিত্র ঈদ-উল-ফিতর এর শুভেচ্ছা বিনিময় করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট কর্তৃক বাংলাদেশ মেডিকেল কলেজের সম্মানিত অধ্যক্ষ,  বাংলাদেশ মেডিকেল কলেজ হাসপাতাল -এর সম্মানিত পরিচালক  এবং সম্মানিত চিকিৎসকবৃন্দের সাথে পবিত্র ঈদ-উল-ফিতর এর শুভেচ্ছা বিনিময় করা হয়।</p>
+                    <br/>
+                    <p lang="en">Sandhani Bangladesh Medical College Unit exchanged Eid-ul-Fitr greetings with Honorable Principal of Bangladesh Medical College, Honorable Director of Bangladesh Medical College Hospital and Honorable Doctors.</p>
                 </div>
                 <div className={styles.panel}>
                     <img src="/gallery/gallery_018.webp" alt="মহান স্বাধীনতা দিবস উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিটের পক্ষ থেকে দুস্থ ও অসহায়দের মাঝে ইফতার প্রদান করা হয়।" width={100} loading="lazy"/>
                     <p lang="bn">মহান স্বাধীনতা দিবস উপলক্ষে সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিটের পক্ষ থেকে দুস্থ ও অসহায়দের মাঝে ইফতার প্রদান করা হয়।</p>
+                    <br/>
+                    <p lang="en">On the occasion of the Great Independence Day, Sandhani Bangladesh Medical College Unit provided Iftar to the poor and helpless.</p>
                 </div>
             </div>
         </main>
