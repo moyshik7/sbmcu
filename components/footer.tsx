@@ -36,9 +36,9 @@ const FooterItem = () => {
         </div>
         <div className={styles.sub}>
             <ul>
-                <li><Link href="#">Terms and Condition</Link></li>
-                <li><Link href="#">User Policy</Link></li>
-                <li><Link href="#">Data Collection</Link></li>
+                <li><Link href="/tos/">Terms and Condition</Link></li>
+                <li><Link href="/tosuser#">User Policy</Link></li>
+                <li><Link href="/tos#data">Data Collection</Link></li>
                 <li><Link href="/membership/">Membership Form</Link></li>
             </ul>
         </div>

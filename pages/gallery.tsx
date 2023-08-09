@@ -19,6 +19,21 @@ const HomePage = () => {
           		gtag('config', 'G-BZ71381ERP');
         	`}
       	</Script>
+        <Script id="jsonld" type="application/ld+json" suppressHydrationWarning>{`
+        {
+            "@context": "https://schema.org",
+            "@type": ["ItemList"],
+     		"name": "Gallery of Sandhani Bangladesh Medical COllege Unit",
+            "url": "https://sbmcu.com/gallery",
+  			"description": "Gallery of Sandhani Bangladesh Medical COllege Unit at Various Occations",
+            "numberOfItems": "5",
+            "itemListElement": [{
+                "@type": ["ListItem", "ImageObject"],
+                "contentUrl": "https://example.com/photos/1x1/black-labrador-puppy.jpg",
+                "license": "https://example.com/tos",
+            }]
+        }`}
+        </Script>
         <Head>
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
