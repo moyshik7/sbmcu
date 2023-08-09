@@ -34,7 +34,7 @@ const HomePage = () => {
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
             <meta name="theme-color" content="#ff6f61"/>
-            <meta name='keywords' content="Sandhani Bangladesh Medical College, Sandhani Dhaka Medical College, Blood Donation Near Me, Blood Donation in Dhaka Bangladesh, Blood Bank Near Me, Blood Bank in Dhaka, Blood Grouping in Bangladesh, Sandhani"/>
+            <meta name='keywords' content="Sandhani Bangladesh Medical College, Sandhani Dhaka Medical College, Blood Donation Near Me, Blood Donation in Dhaka Bangladesh, Blood Bank Near Me, Sandhani Blood Bank, Blood Grouping in Bangladesh, Sandhani"/>
             <meta name='description' content="Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need."/>
             <meta name='subject' content="Blood Donation Free, Blood Bank"/>
             <meta name='copyright' content="Sandhani Bangladesh Medical College Unit"/>
