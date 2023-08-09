@@ -26,7 +26,7 @@ const Navbar = () => {
     const [activeIdx, setActiveIdx] = useState(-1);
 
     return (<div>
-        <Script src="https://kit.fontawesome.com/e8cf12cfb9.js" crossorigin="anonymous" />
+        <Script src="https://kit.fontawesome.com/e8cf12cfb9.js" crossOrigin="anonymous" />
         <header>
             <div className={styles.nav}>
                 <Link href={"/"}>

@@ -1,28 +1,30 @@
 import styles from '@/styles/footer.module.css'
 import Link from "next/link";
+import Script from 'next/script';
 
 const FooterItem = () => {
     return (<div>
+    <Script src="https://kit.fontawesome.com/e8cf12cfb9.js" crossOrigin="anonymous" />
     <div className={styles.footer}>
         <div className={styles.sub}>
             <ul>
                 <li>
-                    <Link href="https://www.facebook.com/profile.php?id=100081879352166">Facebook</Link>
+                    <Link href="https://www.facebook.com/profile.php?id=100081879352166"><i className='fab fa-facebook' /> Facebook</Link>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <Link href="https://twitter.com/s_bmcu">Twitter</Link>
+                    <Link href="https://twitter.com/s_bmcu"><i className='fab fa-twitter' /> Twitter</Link>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <Link href="https://bd.linkedin.com/company/sandhani-bangladesh-medical-college-unit">Linkedin</Link>
+                    <Link href="https://bd.linkedin.com/company/sandhani-bangladesh-medical-college-unit"><i className='fab fa-linkedin' /> LinkedIn</Link>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <Link href="tel:+8801716858723">Phone</Link>
+                    <Link href="tel:+8801716858723"><i className='fas fa-phone-alt' /> Call</Link>
                 </li>
             </ul>
         </div>
