@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
 import FooterItem from '@/components/footer';
+import Image from 'next/image';
 
 
 const HomePage = () => {
@@ -138,19 +139,19 @@ const HomePage = () => {
         <main className={styles.content} id={"main"}>
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`} id={"cr"}>
-                    <img src="/pfp/pfp_central.webp" alt="picture of central comittee representative" />
+                    <Image width={512} height={512} src="/pfp/pfp_central.webp" alt="picture of central comittee representative" />
                     <h2>লাজিম ইমাম চৌধুরী</h2>
                     <p>Central Comittee Rep.</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`} id={"pr"}>
-                    <img src="/pfp/pfp_president.webp" alt="picture of president" />
+                    <Image width={512} height={512} src="/pfp/pfp_president.webp" alt="picture of president" />
                     <h2>শাদমান কাদির</h2>
                     <p>President</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`} id={"sr"}>
-                    <img src="/pfp/pfp_secretary.webp" alt="picture of general secretary" />
+                    <Image width={512} height={512} src="/pfp/pfp_secretary.webp" alt="picture of general secretary" />
                     <h2>শাহরিয়ার হাসান আসিফ</h2>
                     <p>General Secretary</p>
                     <br />
@@ -159,19 +160,19 @@ const HomePage = () => {
 
             <div className={styles.category}>
             <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp_vp.webp" alt="picture of vice president" />
+                    <Image width={512} height={512} src="/pfp/pfp_vp.webp" alt="picture of vice president" />
                     <h2>ছাদেকুল ইসলাম স্বজন</h2>
                     <p>Vice President</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-005.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-005.webp" alt="picture of " />
                     <h2>নাফিসা আমিন নিঝুম</h2>
                     <p>Joint General Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-010.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-010.webp" alt="picture of " />
                     <h2>সাজিদুর রহমান পাটোয়ারী</h2>
                     <p>Organizing Secretary</p>
                     <br />
@@ -180,19 +181,19 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-009.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-009.webp" alt="picture of " />
                     <h2>সালমান ইবনে সেলিম</h2>
                     <p>Finance Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-011.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-011.webp" alt="picture of " />
                     <h2>মোস্তাফিজুর রহমান ফাহিম</h2>
                     <p>Joint Finance Secretary - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-004.webp" alt="picture of vice president" />
+                    <Image width={512} height={512} src="/pfp/pfp-004.webp" alt="picture of vice president" />
                     <h2>রিজওয়ান আহম্মদ</h2>
                     <p>Joint Finance Secretary - 2</p>
                     <br />
@@ -201,19 +202,19 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-008.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-008.webp" alt="picture of " />
                     <h2>সুদীপ্ত বিশ্বাস</h2>
                     <p>Student Welfare Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-007.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-007.webp" alt="picture of " />
                     <h2>লাবীবা বিনতে খালিদ</h2>
                     <p>Joint Student Welfare Secretary - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-012.webp" alt="picture of vice president" />
+                    <Image width={512} height={512} src="/pfp/pfp-012.webp" alt="picture of vice president" />
                     <h2>সায়েদিত সালেহিন আদিত্য</h2>
                     <p>Joint Student Welfare Secretary - 2</p>
                     <br />
@@ -222,19 +223,19 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-017.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-017.webp" alt="picture of " />
                     <h2>তৈয়বা ইসলাম অনন্যা</h2>
                     <p>Patient Welfare Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-013.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-013.webp" alt="picture of " />
                     <h2>খন্দকার আবদুল্লাহীল মীম</h2>
                     <p>Joint Patient Welfare Secretary - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-016.webp" alt="picture of vice president" />
+                    <Image width={512} height={512} src="/pfp/pfp-016.webp" alt="picture of vice president" />
                     <h2>স্নেহাশীষ রয়</h2>
                     <p>Joint Patient Welfare Secretary - 2</p>
                     <br />
@@ -243,19 +244,19 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-019.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-019.webp" alt="picture of " />
                     <h2>আনজুম নাফি</h2>
                     <p>Press and Publications Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-006.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-006.webp" alt="picture of " />
                     <h2>বিরল দে অর্ঘ্য</h2>
                     <p>Joint Press and Publications Secretary - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-015.webp" alt="picture of vice president" />
+                    <Image width={512} height={512} src="/pfp/pfp-015.webp" alt="picture of vice president" />
                     <h2>আনিকা আদিবা</h2>
                     <p>Joint Press and Publications Secretary - 2</p>
                     <br />
@@ -263,13 +264,13 @@ const HomePage = () => {
             </div>
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-014.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-014.webp" alt="picture of " />
                     <h2>সিনথিয়া চৌধুরী</h2>
                     <p>Office Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-018.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-018.webp" alt="picture of " />
                     <h2>আবদুল্লাহ আল শাহরিয়া</h2>
                     <p>Joint Office Secretary</p>
                     <br />
@@ -278,19 +279,19 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-024.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-024.webp" alt="picture of " />
                     <h2>ফারিহা রউফ ঋতু</h2>
                     <p>Donor Club and Social Welfare Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-020.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-020.webp" alt="picture of " />
                     <h2>নুসরাত তাবাসসুম সর্ণা</h2>
                     <p>Education Research and Statistics Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-021.webp" alt="picture of vice president" />
+                    <Image width={512} height={512} src="/pfp/pfp-021.webp" alt="picture of vice president" />
                     <h2>রাকিবুল ইসলাম মুরাদ</h2>
                     <p>Joint Education Research and Statistics Secretary</p>
                     <br />
@@ -299,19 +300,19 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-026.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-026.webp" alt="picture of " />
                     <h2>মাহফুজা আনান</h2>
                     <p>Executive Committee Member - 1</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-023.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-023.webp" alt="picture of " />
                     <h2>ফয়সাল খান</h2>
                     <p>Executive Committee Member - 2</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-027.webp" alt="picture of vice president" />
+                    <Image width={512} height={512} src="/pfp/pfp-027.webp" alt="picture of vice president" />
                     <h2>জিনিয়া আলম</h2>
                     <p>Executive Committee Member - 3</p>
                     <br />
@@ -320,13 +321,13 @@ const HomePage = () => {
 
             <div className={styles.category}>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-025.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-025.webp" alt="picture of " />
                     <h2>সিদরাতুল মুনতাহা</h2>
                     <p>Drug Bank Secretary</p>
                     <br />
                 </div>
                 <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <img src="/pfp/pfp-022.webp" alt="picture of " />
+                    <Image width={512} height={512} src="/pfp/pfp-022.webp" alt="picture of " />
                     <h2>আয়েশা বিনতে কামাল নোভা</h2>
                     <p>Joint Drug Bank Secretary</p>
                     <br />
