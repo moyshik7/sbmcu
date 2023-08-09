@@ -84,6 +84,7 @@
 }
 .category .panel img {
     width: 100%;
+    height: auto;
     margin: auto;
     margin-bottom: 20px;
     border-radius: 30px;
