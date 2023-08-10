@@ -6,6 +6,8 @@ Allow: /membership/
 Allow: /tos/
 Allow: /about/
 Allow: /request/
+Allow: /blog
+Allow: /blog/*
 Disallow: /rick
 Disallow: /rick/*
 Disallow: /admin/
@@ -19,6 +21,8 @@ Allow: /membership/
 Allow: /tos/
 Allow: /about/
 Allow: /request/
+Allow: /blog
+Allow: /blog/*
 Disallow: /rick
 Disallow: /rick/*
 Disallow: /admin/
@@ -32,6 +36,8 @@ Allow: /membership/
 Allow: /tos/
 Allow: /about/
 Allow: /request/
+Allow: /blog
+Allow: /blog/*
 Disallow: /rick
 Disallow: /rick/*
 Disallow: /admin/
@@ -45,6 +51,8 @@ Allow: /membership/
 Allow: /tos/
 Allow: /about/
 Allow: /request/
+Allow: /blog
+Allow: /blog/*
 Disallow: /rick
 Disallow: /rick/*
 Disallow: /admin/
@@ -58,6 +66,8 @@ Allow: /membership/
 Allow: /tos/
 Allow: /about/
 Allow: /request/
+Allow: /blog
+Allow: /blog/*
 Disallow: /rick
 Disallow: /rick/*
 Disallow: /admin/
