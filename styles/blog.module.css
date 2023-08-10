@@ -1,0 +1,117 @@
+.main {
+    text-decoration: none;
+    background-color: #303030;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    line-height: 1.7;
+    overflow-wrap: break-word;
+}
+.main a {
+    text-decoration: none;
+}
+.container {
+    background-color: #303030;
+    padding: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+    font-family: 'Ysabeau Infant', sans-serif;
+    display: block;
+}
+
+
+.content {
+    margin: 40px auto;
+    padding: 0 20px;
+    color: white;
+    width: 100%;
+    max-width: 1440px;
+    border: 1px solid red;
+}
+
+.category {
+    display: block;
+    margin-bottom: 25px;
+}
+.category .textbox {
+    width: 100%;
+}
+
+.category .textbox h1 {
+    font-size: 2.5EM;
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+}
+.category .textbox h2 {
+    font-size: 2EM;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+.category .textbox h3 {
+    font-size: 1.8EM;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+.category .textbox h4 {
+    font-size: 1.6EM;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+.category .textbox p {
+    font-size: 1.3EM;
+    margin-bottom: 10px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.category .textbox .note {
+    border-left: 7px solid #66c99c;
+    padding: 20px;
+    background-color: rgba(66, 185, 131, .25);
+    color: white;
+    font-weight: 400;
+    width: 100%;
+    border-radius: 7px;
+}
+.category .textbox .warn {
+    border-left: 7px solid #e7c000;
+    padding: 20px;
+    background-color: rgba(255, 229, 100, .25);
+    color: white;
+    font-weight: 400;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.category .textbox img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.spacer {
+    height: 75px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .spacer {
+      height: 60px;
+      width: 100%;
+    }
+    .category {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+}
