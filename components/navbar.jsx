@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "@/styles/navbar.module.css"
 import Head from "next/head";
 import Script from "next/script";
+import Image from "next/image";
 
 const NavItem = ({ text, href, active }) => {
   return (
@@ -23,14 +24,16 @@ const MENU_LIST = [
 ];
 const Navbar = () => {
     const [navActive, setNavActive] = useState(null);
-    const [activeIdx, setActiveIdx] = useState(-1);
+    const [activeIdx, setActiveIdx] = useState(-1); 
 
     return (<div>
         <Script src="https://kit.fontawesome.com/e8cf12cfb9.js" crossOrigin="anonymous" />
         <header>
             <div className={styles.nav}>
                 <Link href={"/"}>
-                    <h1 className={styles.logo}>Sandhani</h1>
+                    <h1 className={styles.logo}>
+                        <Image src="/android-icon-192x192.png" height={192} width={192} alt="Sandhani Bangladesh Medical College Logo" />
+                    </h1>
         		</Link>
         		<div onClick={() => setNavActive(!navActive)} className={styles.nav__menu_bar}>
 					{ navActive ? <i className='fas fa-times' /> : <i className='fas fa-bars' /> }

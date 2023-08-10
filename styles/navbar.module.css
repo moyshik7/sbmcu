@@ -12,7 +12,13 @@
     top: 0;
 }
 .nav .logo {
-    color: white;
+    width: 60px;
+    border-radius: 7px;
+}
+.nav .logo img{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
 }
 .nav a {
     text-decoration: none;
@@ -42,7 +48,7 @@
 }
 .nav__menu_list.active{
     right: 0;
-}
+} 
 .nav__link{
     font-size: 18px; 
     position: relative;
