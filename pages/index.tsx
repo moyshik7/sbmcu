@@ -6,7 +6,7 @@ import Script from 'next/script'
 import Link from 'next/link';
 import FooterItem from '@/components/footer';
 import Image from 'next/image';
-import ReactAdsense from '@pkasila/react-katex';
+import ReactAdsense from '@pkasila/react-adsense';
 
 import ImageCR from "../public/pfp/pfp_central.webp";
 import ImagePR from "../public/pfp/pfp_president.webp";
@@ -66,8 +66,6 @@ const HomePage = () => {
           		gtag('config', 'G-BZ71381ERP');
         	`}
       	</Script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9901731849909509"
-     crossOrigin="anonymous"/>
         
         <div className={styles.spacer}></div>
 
@@ -158,12 +156,12 @@ const HomePage = () => {
             </div>
 
             <div className={styles.category}>
-                
                 <ReactAdsense 
                     client={'ca-pub-9901731849909509'}
-                       slot={'7369293591'}
-                       layout={'in-article'}
-                       format={'auto'} />
+                    slot={'7369293591'}
+                    layout={'in-article'}
+                    format={'auto'} 
+                />
             </div>
             
             <div className={styles.category}>
