@@ -153,6 +153,18 @@ const HomePage = () => {
                     <p>Be a lifeline: Donate blood, ignite hope, save lives.</p>
                 </div>
             </div>
+
+            <div className={styles.category}>
+                <ins className={"adsbygoogle" + " " + styles.map}
+                    data-ad-client="ca-pub-9901731849909509"
+                    data-ad-slot="7369293591"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true" />
+                <Script id="pp">
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </Script>
+            </div>
+            
             <div className={styles.category}>
                 <iframe 
                     className={styles.map}
