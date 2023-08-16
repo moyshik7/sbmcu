@@ -153,6 +153,15 @@ const HomePage = () => {
                     <p>Be a lifeline: Donate blood, ignite hope, save lives.</p>
                 </div>
             </div>
+            <div className={styles.category}>
+                <iframe 
+                    className={styles.map}
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6141.811254317321!2d90.37159805896201!3d23.749418326539278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bfc2c95b283f%3A0x535a457573961885!2sSandhani%20Bangladesh%20Medical%20College%20Unit!5e0!3m2!1sen!2sbd!4v1692199261476!5m2!1sen!2sbd" 
+                    allowFullScreen={true} 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade" 
+                />
+            </div>
         </main>
   
         <FooterItem/>
