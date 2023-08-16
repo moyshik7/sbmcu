@@ -1,8 +1,9 @@
 import Head from 'next/head';
-import styles from '@/styles/about.module.css'
+import styles from '@/styles/blog.module.css'
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
 import FooterItem from '@/components/footer';
+import Image from 'next/image';
 
 
 const HomePage = () => {
@@ -68,73 +69,70 @@ const HomePage = () => {
                 <div className={styles.textbox}>
                     <h1>Terms of Service</h1>
                     <br/>
-                    <p  id={"user"}>By accessing this website, we assume you accept these terms and conditions.</p>
-                    <br id={"liability"}/>
+
+                    
+                    <div className={styles.note} id={"user"}>
+                        By accessing this website, we assume you accept these terms and conditions.
+                    </div>
                     <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+
+
                     <h2>Limitation of Liability</h2>
+                    <div className={styles.note} id={"liability"}>
+                        While we strive to provide accurate and up-to-date information on our website, we want to make it clear that we are not legally liable for any damages, losses, or inconveniences that may arise from using our website. This includes any issues related to technical glitches, errors in content, or interruptions in service. By using our website, you agree that any reliance you place on the information provided is at your own risk.
+                    </div>
                     <br/>
-                    <br/>
-                    <p>While we strive to provide accurate and up-to-date information on our website, we want to make it clear that we are not legally liable for any damages, losses, or inconveniences that may arise from using our website. This includes any issues related to technical glitches, errors in content, or interruptions in service. By using our website, you agree that any reliance you place on the information provided is at your own risk.</p>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+
+
                     <h2>Disclaimer Regarding Moving Objects</h2>
+                    <div className={styles.note} id={"epilepsy"}>
+                        Our website might include interactive elements or moving objects for enhanced user experience. We want to emphasize that we are not responsible for any discomfort, seizures, or adverse reactions that may result from viewing such content. If you experience any negative effects, we recommend discontinuing use and seeking medical attention if necessary.
+                    </div>
                     <br/>
-                    <br/>
-                    <p>Our website might include interactive elements or moving objects for enhanced user experience. We want to emphasize that we are not responsible for any discomfort, seizures, or adverse reactions that may result from viewing such content. If you experience any negative effects, we recommend discontinuing use and seeking medical attention if necessary.</p>
-                    <br id={"copy"}/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+
+
                     <h2>Copyright and Usage Restrictions</h2>
+                    <div className={styles.note} id={"epilepsy"}>
+                        The content presented on our website, including text, images, videos, and other multimedia elements, is protected under copyright law. While we encourage the sharing of information and knowledge, we want to clarify the terms of use:
+                    </div>
                     <br/>
+                    <div className={styles.warn}>
+                        <b>Fair Use:</b> You may use excerpts of our content for purposes such as criticism, commentary, news reporting, teaching, scholarship, or research. However, this usage must adhere to the principles of &apos;fair use&apos; as defined by copyright law.
+                    </div>
                     <br/>
-                    <p>The content presented on our website, including text, images, videos, and other multimedia elements, is protected under copyright law. While we encourage the sharing of information and knowledge, we want to clarify the terms of use:</p>
-                    <ul>
-                        <li>
-                            <p><b>Fair Use:</b> You may use excerpts of our content for purposes such as criticism, commentary, news reporting, teaching, scholarship, or research. However, this usage must adhere to the principles of &apos;fair use&apos; as defined by copyright law.</p>
-                        </li>
-                        <li>
-                            <p><b>Non-Commercial Use:</b> Our content may not be used for commercial purposes without explicit permission. This means you cannot use our materials for profit, advertising, or any other form of commercial gain without obtaining proper authorization.</p>
-                        </li>
-                    </ul>
-                    <p>We appreciate your respect for intellectual property rights and encourage responsible use of our content. If you have questions about using our materials or seek permission for specific use cases, please contact us for further guidance.Your understanding of these terms is crucial as it helps maintain a fair and respectful online environment for all users. We value your presence on our website and want to ensure that everyone can benefit from the information we provide while adhering to legal and ethical standards.</p>
-                    <br id={"data"}/>
+                    <div className={styles.warn}>
+                        <b>Non-Commercial Use:</b> Our content may not be used for commercial purposes without explicit permission. This means you cannot use our materials for profit, advertising, or any other form of commercial gain without obtaining proper authorization.
+                    </div>
                     <br/>
+                    <div className={styles.note}>
+                        We appreciate your respect for intellectual property rights and encourage responsible use of our content. If you have questions about using our materials or seek permission for specific use cases, please contact us for further guidance.Your understanding of these terms is crucial as it helps maintain a fair and respectful online environment for all users. We value your presence on our website and want to ensure that everyone can benefit from the information we provide while adhering to legal and ethical standards.
+                    </div>
                     <br/>
+                    <h2 id={"cookies"}>Cookies and Data Collection</h2>
+                    <div className={styles.note}>
+                        When you visit our website, we use cookies to enhance your browsing experience. Cookies are small text files that are placed on your device (such as your computer or mobile phone) by websites you visit. They serve various purposes, including improving website functionality, analyzing user behavior, and providing personalized content.
+                    </div>
                     <br/>
+                    <div className={styles.note}>
+                        Cookies allow us to better understand how you interact with our website. They help us remember your preferences, such as your language settings, and enable certain features to make your experience smoother. For example, cookies might remember items you&apos;ve added to your shopping cart or keep you logged in as you navigate different pages.
+                    </div>
                     <br/>
+                    <div className={styles.note}>
+                        In addition to our own cookies, we also use third-party services like Google Analytics. These services use cookies to collect data about your usage patterns on our website. The information gathered includes your IP address, browser type, device information, and pages visited. This data is aggregated and anonymized, meaning it&apos;s grouped together and doesn&apos;t identify you personally. It provides us with valuable insights into how our website is being used, which pages are popular, and where we can make improvements.
+                    </div>
                     <br/>
-                    <h2>Cookies and Data Collection</h2>
+                    <div className={styles.note}>
+                        It&apos;s important to note that you have control over your cookie settings. Most web browsers allow you to manage your cookie preferences. You can choose to accept or decline cookies, and you can usually delete cookies from your device at any time. Keep in mind that by disabling certain cookies, you might impact your experience on our website and limit some features.
+                    </div>
                     <br/>
+                    <div className={styles.note}>
+                        By using our website, you&apos;re consenting to the use of cookies and data collection, both by us and by third-party services. We want to assure you that your privacy is important to us. We handle your data with care and take measures to protect it. For a more comprehensive understanding of how we handle your personal information, please refer to our Privacy Policy.
+                    </div>
                     <br/>
-                    <p>When you visit our website, we use cookies to enhance your browsing experience. Cookies are small text files that are placed on your device (such as your computer or mobile phone) by websites you visit. They serve various purposes, including improving website functionality, analyzing user behavior, and providing personalized content.</p>
-                    <br/>
-                    <p>Cookies allow us to better understand how you interact with our website. They help us remember your preferences, such as your language settings, and enable certain features to make your experience smoother. For example, cookies might remember items you&apos;ve added to your shopping cart or keep you logged in as you navigate different pages.</p>
-                    <br/>
-                    <p>In addition to our own cookies, we also use third-party services like Google Analytics. These services use cookies to collect data about your usage patterns on our website. The information gathered includes your IP address, browser type, device information, and pages visited. This data is aggregated and anonymized, meaning it&apos;s grouped together and doesn&apos;t identify you personally. It provides us with valuable insights into how our website is being used, which pages are popular, and where we can make improvements.</p>
-                    <br/>
-                    <p>It&apos;s important to note that you have control over your cookie settings. Most web browsers allow you to manage your cookie preferences. You can choose to accept or decline cookies, and you can usually delete cookies from your device at any time. Keep in mind that by disabling certain cookies, you might impact your experience on our website and limit some features.</p>
-                    <br/>
-                    <p>By using our website, you&apos;re consenting to the use of cookies and data collection, both by us and by third-party services. We want to assure you that your privacy is important to us. We handle your data with care and take measures to protect it. For a more comprehensive understanding of how we handle your personal information, please refer to our Privacy Policy.</p>
-                    <br/>
-                    <p>In summary, cookies play a crucial role in enhancing your online experience, and data collection helps us improve our services. Your privacy is a priority, and we&apos;re committed to transparency in how we use cookies and handle your data. If you have any questions or concerns, please don&apos;t hesitate to reach out to us. Your trust matters, and we&apos;re here to provide clarity and support.</p>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-            </div>
+                    <div className={styles.note}>
+                        In summary, cookies play a crucial role in enhancing your online experience, and data collection helps us improve our services. Your privacy is a priority, and we&apos;re committed to transparency in how we use cookies and handle your data. If you have any questions or concerns, please don&apos;t hesitate to reach out to us. Your trust matters, and we&apos;re here to provide clarity and support.
+                    </div>
+                </div>
             </div>
         </main>
   
