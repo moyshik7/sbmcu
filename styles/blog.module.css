@@ -37,6 +37,7 @@
 }
 .category .textbox {
     width: 100%;
+    line-height: 2.5;
 }
 
 .category .textbox h1 {
@@ -63,6 +64,13 @@
     font-size: 1.3EM;
     margin-bottom: 10px;
     font-family: 'Ysabeau Infant', sans-serif;
+}
+.category .textbox a {
+    margin-bottom: 10px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: pink;
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
 .category .textbox .note {
     border-left: 7px solid #66c99c;

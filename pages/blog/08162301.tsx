@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar"
 import Script from 'next/script'
 import FooterItem from '@/components/footer';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 const HomePage = () => {
@@ -38,25 +39,25 @@ const HomePage = () => {
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
             
             <meta name="theme-color" content="#ff6f61"/>
-            <meta name='keywords' content=""/>
+            <meta name='keywords' content="সন্ধানী, বাংলাদেশ মেডিকেল কলেজ, রক্ত আছে, সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট, সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে, A+ A- O+ O- AB+ AB= B+ B- রক্ত,  A+ A- O+ O- AB+ AB= B+ B- Blood Available"/>
             <meta name='description' content=""/>
             <meta name='subject' content="Blood Donation Free"/>
             <meta name='copyright' content="Sandhani Bangladesh Medical College Unit"/>
-            <meta name='language' content='EN,BN'/>
+            <meta name='language' content='BN'/>
             <meta name='robots' content='index,follow'/>
-            <meta property="og:title" content="" />
-            <meta property="og:description" content="" />
-            <meta property="og:url" content="https://sbmcu.com/" />
-            <meta property="og:image" content="https://sbmcu.com/slide/slide_1.webp" />
-            <meta property="og:site_name" content="" />
-            <meta name="twitter:title" content="" />
-            <meta name="twitter:description" content="" />
-            <meta name="twitter:image" content="https://sbmcu.com/slide/slide_1.webp" />
+            <meta property="og:title" content="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে" />
+            <meta property="og:description" content="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে" />
+            <meta property="og:url" content="https://sbmcu.com/blog/08162301/" />
+            <meta property="og:image" content="https://sbmcu.com/b/blog_008.webp" />
+            <meta property="og:site_name" content="সন্ধানী" />
+            <meta name="twitter:title" content="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে" />
+            <meta name="twitter:description" content="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে" />
+            <meta name="twitter:image" content="https://sbmcu.com/b/blog_008.webp" />
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:image:alt" content=""/>
+            <meta name="twitter:image:alt" content="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে"/>
             <meta name="twitter:site" content="@s_bmcu" />
             
-            <title>Sandhani Demo Blog</title>
+            <title>সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -67,22 +68,31 @@ const HomePage = () => {
         <main className={styles.content}>
             <div className={styles.category}>
                 <div className={styles.textbox}>
-                    <h1>Command response methods</h1>
+                    <h1>সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে</h1>
+                    <br/>
                     <p>
-                        There are multiple ways of responding to a slash command; each of these are covered in the following segments. Using an interaction response method confirms to Discord that your bot successfully received the interaction, and has responded to the user. Discord enforces this to ensure that all slash commands provide a good user experience (UX). Failing to respond will cause Discord to show that the command failed, even if your bot is performing other actions as a result.
-                    </p>
-                    <p>
-                        The most common way of sending a response is by using the ChatInputCommandInteraction#reply() method, as you have done in earlier examples. This method acknowledges the interaction and sends a new message in response.
+                        সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত সংখ্যক A(+ve), B(+ve), AB (+ve), O(+ ve) রক্ত আছে ।<br/>
+                        <a href={"/contact"}>আপনাদের রক্তের প্রয়োজনে যোগাযোগ করতে পারেন।</a><br/>
+                        যোগাযোগঃ<br/>
+                        <a href={"tel:+8801792099666"}>+880 1792099666</a><br/>
+                        <a href={"tel:+8801675173841"}>+880 1675173841</a><br/>
+                        <br/>
+                        <a href="https://goo.gl/maps/MJfktxyVG8mpTdhn9" target="_blank">ঠিকানা: রোড ১৪/এ, বাংলাদেশ মেডিকেল কলেজ হাসপাতালের প্রধান ভবনের বিপরীতে, BMSRI ভবনের নিচ তলা</a><br/>
+                        <br/>
+                        জয় হোক মানবতার<br/>
+                        জয় হোক সন্ধানীর❤️<br/>
                     </p>
                     <div className={styles.note}>
-                        pp
-                    </div>
-                    <br></br>
-                    <div className={styles.warn}>
-                        Initially an interaction token is only valid for three seconds, so that&apos;s the timeframe in which you are able to use the ChatInputCommandInteraction#reply() method. Responses that require more time (&apos;Deferred Responses&apos;) are explained later in this page. #Ephemeral responses
+                        <Link href="/contact" >রক্তের প্রয়োজনে সরাসরি সন্ধানি বাংলাদেশ মেডিকেল কলেজ ইউনিটে যোগাযোগ করুন</Link>
                     </div>
                     <br/>
-                    <Image height={720} width={1080} alt="Early Days of Sandhani Bangladesh Medical College" src="/gallery/gallery_004.webp" />
+                    <br/>
+                    <div className={styles.warn}>
+                        <b>কোনো প্রকার দালালচক্রের দ্বারা প্রতারিত হবেন না</b>
+                    </div>
+                    <br/>
+                    <br/>
+                    <Image height={720} width={1080} alt="সন্ধানী বাংলাদেশ মেডিকেল কলেজ ইউনিট এ পর্যাপ্ত রক্ত আছে" src="/b/blog_008.webp" />
                 </div>
             </div>
         </main>
