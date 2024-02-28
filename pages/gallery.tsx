@@ -1,3 +1,5 @@
+//Oyshik was here
+//BMC BM36 111
 import Head from 'next/head';
 import styles from '@/styles/gallery.module.css'
 import Navbar from "@/components/navbar"
