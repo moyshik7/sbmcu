@@ -1,24 +1,21 @@
 import Head from 'next/head';
-import styles from '@/styles/blog.module.css'
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
 import FooterItem from '@/components/footer';
-import Image from 'next/image';
 
 
-const HomePage = () => {
+const TosPage = () => {
     return (
-    <div className={styles.main}>
+    <div className="min-h-screen bg-neutral-900">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZ71381ERP" strategy="afterInteractive" />
-      	<Script id="google-analytics" strategy="afterInteractive">
-        	{`
-          		window.dataLayer = window.dataLayer || [];
-          		function gtag(){dataLayer.push(arguments);}
-          		gtag('js', new Date());
- 
-          		gtag('config', 'G-BZ71381ERP');
-        	`}
-      	</Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+            {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-BZ71381ERP');
+            `}
+        </Script>
         <Head>
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
@@ -36,103 +33,72 @@ const HomePage = () => {
             <link rel="manifest" href="/manifest.json"/>
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
-            
             <meta name="theme-color" content="#ff6f61"/>
-            <meta name='keywords' content="Sandhani Bangladesh Medical College, History of Sandhani Bangladesh Medical College Unit, Blood Donation Near Me, Non Profit Organization in Dhaka, Where to Donate in Dhaka, Places to Visit in Dhanmondi"/>
-            <meta name='description' content="Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need."/>
-            <meta name='subject' content="Blood Donation Free"/>
-            <meta name='copyright' content="Sandhani Bangladesh Medical College Unit"/>
-            <meta name='language' content='EN,BN'/>
             <meta name='robots' content='index,follow'/>
-            <meta property="og:title" content="History of Sandhani Bangladesh Medical College Unit" />
-            <meta property="og:description" content="Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need." />
-            <meta property="og:url" content="https://sbmcu.com/" />
-            <meta property="og:image" content="https://sbmcu.com/slide/slide_1.webp" />
-            <meta property="og:site_name" content="Sandhani Bangladesh Medical College Unit" />
-            <meta name="twitter:title" content="History of Sandhani Bangladesh Medical College Unit" />
-            <meta name="twitter:description" content="Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need." />
-            <meta name="twitter:image" content="https://sbmcu.com/slide/slide_1.webp" />
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:image:alt" content="Sandhani Bangladesh Medical College Unit Cover Photo"/>
-            <meta name="twitter:site" content="@s_bmcu" />
-            
             <title>Terms of Service - Sandhani Bangladesh Medical College Unit</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className={styles.spacer}></div>
-
+        <div className="h-16" />
         <Navbar />
 
-        <main className={styles.content}>
-            <div className={styles.category}>
-                <div className={styles.textbox}>
-                    <h1>Terms of Service</h1>
-                    <br/>
+        <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10 text-white">
+            <h1 className="text-3xl md:text-4xl font-bold mb-10 text-center">Terms of Service</h1>
 
-                    
-                    <div className={styles.note} id={"user"}>
-                        By accessing this website, we assume you accept these terms and conditions.
-                    </div>
-                    <br/>
-
-
-                    <h2>Limitation of Liability</h2>
-                    <div className={styles.note} id={"liability"}>
-                        While we strive to provide accurate and up-to-date information on our website, we want to make it clear that we are not legally liable for any damages, losses, or inconveniences that may arise from using our website. This includes any issues related to technical glitches, errors in content, or interruptions in service. By using our website, you agree that any reliance you place on the information provided is at your own risk.
-                    </div>
-                    <br/>
-
-
-                    <h2>Disclaimer Regarding Moving Objects</h2>
-                    <div className={styles.note} id={"epilepsy"}>
-                        Our website might include interactive elements or moving objects for enhanced user experience. We want to emphasize that we are not responsible for any discomfort, seizures, or adverse reactions that may result from viewing such content. If you experience any negative effects, we recommend discontinuing use and seeking medical attention if necessary.
-                    </div>
-                    <br/>
-
-
-                    <h2>Copyright and Usage Restrictions</h2>
-                    <div className={styles.note} id={"epilepsy"}>
-                        The content presented on our website, including text, images, videos, and other multimedia elements, is protected under copyright law. While we encourage the sharing of information and knowledge, we want to clarify the terms of use:
-                    </div>
-                    <br/>
-                    <div className={styles.warn}>
-                        <b>Fair Use:</b> You may use excerpts of our content for purposes such as criticism, commentary, news reporting, teaching, scholarship, or research. However, this usage must adhere to the principles of &apos;fair use&apos; as defined by copyright law.
-                    </div>
-                    <br/>
-                    <div className={styles.warn}>
-                        <b>Non-Commercial Use:</b> Our content may not be used for commercial purposes without explicit permission. This means you cannot use our materials for profit, advertising, or any other form of commercial gain without obtaining proper authorization.
-                    </div>
-                    <br/>
-                    <div className={styles.note}>
-                        We appreciate your respect for intellectual property rights and encourage responsible use of our content. If you have questions about using our materials or seek permission for specific use cases, please contact us for further guidance.Your understanding of these terms is crucial as it helps maintain a fair and respectful online environment for all users. We value your presence on our website and want to ensure that everyone can benefit from the information we provide while adhering to legal and ethical standards.
-                    </div>
-                    <br/>
-                    <h2 id={"cookies"}>Cookies and Data Collection</h2>
-                    <div className={styles.note}>
-                        When you visit our website, we use cookies to enhance your browsing experience. Cookies are small text files that are placed on your device (such as your computer or mobile phone) by websites you visit. They serve various purposes, including improving website functionality, analyzing user behavior, and providing personalized content.
-                    </div>
-                    <br/>
-                    <div className={styles.note}>
-                        Cookies allow us to better understand how you interact with our website. They help us remember your preferences, such as your language settings, and enable certain features to make your experience smoother. For example, cookies might remember items you&apos;ve added to your shopping cart or keep you logged in as you navigate different pages.
-                    </div>
-                    <br/>
-                    <div className={styles.note}>
-                        In addition to our own cookies, we also use third-party services like Google Analytics. These services use cookies to collect data about your usage patterns on our website. The information gathered includes your IP address, browser type, device information, and pages visited. This data is aggregated and anonymized, meaning it&apos;s grouped together and doesn&apos;t identify you personally. It provides us with valuable insights into how our website is being used, which pages are popular, and where we can make improvements.
-                    </div>
-                    <br/>
-                    <div className={styles.note}>
-                        It&apos;s important to note that you have control over your cookie settings. Most web browsers allow you to manage your cookie preferences. You can choose to accept or decline cookies, and you can usually delete cookies from your device at any time. Keep in mind that by disabling certain cookies, you might impact your experience on our website and limit some features.
-                    </div>
-                    <br/>
-                    <div className={styles.note}>
-                        By using our website, you&apos;re consenting to the use of cookies and data collection, both by us and by third-party services. We want to assure you that your privacy is important to us. We handle your data with care and take measures to protect it. For a more comprehensive understanding of how we handle your personal information, please refer to our Privacy Policy.
-                    </div>
-                    <br/>
-                    <div className={styles.note}>
-                        In summary, cookies play a crucial role in enhancing your online experience, and data collection helps us improve our services. Your privacy is a priority, and we&apos;re committed to transparency in how we use cookies and handle your data. If you have any questions or concerns, please don&apos;t hesitate to reach out to us. Your trust matters, and we&apos;re here to provide clarity and support.
-                    </div>
+            <div className="space-y-8">
+                <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-500/10 p-5" id="user">
+                    <p className="text-white/90 leading-relaxed">By accessing this website, we assume you accept these terms and conditions.</p>
                 </div>
+
+                <section>
+                    <h2 className="text-xl font-semibold mb-3" id="liability">Limitation of Liability</h2>
+                    <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-500/10 p-5">
+                        <p className="text-white/90 leading-relaxed">While we strive to provide accurate and up-to-date information on our website, we want to make it clear that we are not legally liable for any damages, losses, or inconveniences that may arise from using our website. This includes any issues related to technical glitches, errors in content, or interruptions in service. By using our website, you agree that any reliance you place on the information provided is at your own risk.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 className="text-xl font-semibold mb-3" id="epilepsy">Disclaimer Regarding Moving Objects</h2>
+                    <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-500/10 p-5">
+                        <p className="text-white/90 leading-relaxed">Our website might include interactive elements or moving objects for enhanced user experience. We want to emphasize that we are not responsible for any discomfort, seizures, or adverse reactions that may result from viewing such content. If you experience any negative effects, we recommend discontinuing use and seeking medical attention if necessary.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 className="text-xl font-semibold mb-3" id="copy">Copyright and Usage Restrictions</h2>
+                    <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-500/10 p-5 mb-4">
+                        <p className="text-white/90 leading-relaxed">The content presented on our website, including text, images, videos, and other multimedia elements, is protected under copyright law. While we encourage the sharing of information and knowledge, we want to clarify the terms of use:</p>
+                    </div>
+                    <div className="space-y-3">
+                        <div className="rounded-xl border-l-4 border-amber-400 bg-amber-400/10 p-5">
+                            <p className="text-white/90 leading-relaxed"><strong>Fair Use:</strong> You may use excerpts of our content for purposes such as criticism, commentary, news reporting, teaching, scholarship, or research. However, this usage must adhere to the principles of &apos;fair use&apos; as defined by copyright law.</p>
+                        </div>
+                        <div className="rounded-xl border-l-4 border-amber-400 bg-amber-400/10 p-5">
+                            <p className="text-white/90 leading-relaxed"><strong>Non-Commercial Use:</strong> Our content may not be used for commercial purposes without explicit permission. This means you cannot use our materials for profit, advertising, or any other form of commercial gain without obtaining proper authorization.</p>
+                        </div>
+                    </div>
+                    <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-500/10 p-5 mt-4">
+                        <p className="text-white/90 leading-relaxed">We appreciate your respect for intellectual property rights and encourage responsible use of our content. If you have questions about using our materials or seek permission for specific use cases, please contact us for further guidance.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 className="text-xl font-semibold mb-3" id="cookies">Cookies and Data Collection</h2>
+                    <div className="space-y-3">
+                        {[
+                            "When you visit our website, we use cookies to enhance your browsing experience. Cookies are small text files that are placed on your device by websites you visit. They serve various purposes, including improving website functionality, analyzing user behavior, and providing personalized content.",
+                            "Cookies allow us to better understand how you interact with our website. They help us remember your preferences, such as your language settings, and enable certain features to make your experience smoother.",
+                            "In addition to our own cookies, we also use third-party services like Google Analytics. These services use cookies to collect data about your usage patterns on our website. The information gathered includes your IP address, browser type, device information, and pages visited. This data is aggregated and anonymized.",
+                            "It's important to note that you have control over your cookie settings. Most web browsers allow you to manage your cookie preferences. You can choose to accept or decline cookies, and you can usually delete cookies from your device at any time.",
+                            "By using our website, you're consenting to the use of cookies and data collection, both by us and by third-party services. We handle your data with care and take measures to protect it.",
+                            "In summary, cookies play a crucial role in enhancing your online experience, and data collection helps us improve our services. Your privacy is a priority, and we're committed to transparency in how we use cookies and handle your data."
+                        ].map((text, idx) => (
+                            <div key={idx} className="rounded-xl border-l-4 border-emerald-500 bg-emerald-500/10 p-5">
+                                <p className="text-white/90 leading-relaxed">{text}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
             </div>
         </main>
   
@@ -140,4 +106,4 @@ const HomePage = () => {
     </div>);
 };
   
-export default HomePage;
+export default TosPage;

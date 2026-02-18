@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import styles from '@/styles/Home.module.css'
 import Slideshow from '@/components/slide';
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
@@ -16,7 +15,7 @@ import ImageVP from "../public/pfp/pfp_vp.webp";
 
 const HomePage = () => {
     return (
-    <div className={styles.main}>
+    <div className="min-h-screen bg-neutral-900">
         <Head>
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
@@ -57,105 +56,104 @@ const HomePage = () => {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZ71381ERP" strategy="afterInteractive" />
-      	<Script id="google-analytics" strategy="afterInteractive">
-        	{`
-          		window.dataLayer = window.dataLayer || [];
-          		function gtag(){dataLayer.push(arguments);}
-          		gtag('js', new Date());
-
-          		gtag('config', 'G-BZ71381ERP');
-        	`}
-      	</Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+            {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-BZ71381ERP');
+            `}
+        </Script>
         
-        <div className={styles.spacer}></div>
+        <div className="h-16" />
 
         <Navbar />
 
         <Slideshow />
 
-
-        <section className={styles.over_image} id="about">
-            <h2>About Sandhani</h2>
-            <p>Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need.</p>
+        {/* About Section */}
+        <section className="relative -mt-20 mb-16 max-w-4xl mx-auto px-6 text-center" id="about">
+            <div className="bg-neutral-800/80 backdrop-blur-lg rounded-2xl border border-white/10 p-8 md:p-12 shadow-2xl">
+                <h2 className="text-white text-2xl md:text-3xl font-bold mb-4">About Sandhani</h2>
+                <p className="text-white/70 text-lg leading-relaxed">
+                    Sandhani is a voluntary blood donation organization run by students of Bangladesh Medical College. We aim to encourage people to donate blood and provide free blood supplies to those in need.
+                </p>
+            </div>
         </section>
 
-        <main className={styles.content}>
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 pb-12">
 
-            <div className={styles.category}>
-                <div className={`${styles.item} ${styles.bg_red}`}>
-                    <h2>Donate Blood</h2>
-                    <p>
-                        Brighten someone&apos;s day with the gift of life! 🩸 Donate blood and spread happiness through your generosity. Every drop you give can save a life and make a positive impact on the world. Join the lifesaving party, and let your kindness flow as we celebrate the joy of giving together! 
+            {/* Action Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-500 to-red-700 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
+                    <h2 className="text-white text-2xl font-bold mb-4 relative">Donate Blood</h2>
+                    <p className="text-white/90 leading-relaxed mb-6 relative">
+                        Brighten someone&apos;s day with the gift of life! Donate blood and spread happiness through your generosity. Every drop you give can save a life and make a positive impact on the world.
                     </p>
-                    <div className={styles.button_holder}>
-                        <Link href="/contact">Donate Now</Link>
-                    </div>
+                    <Link href="/contact" className="relative inline-block bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white font-semibold px-8 py-3 rounded-full transition-all duration-200 no-underline border border-white/20">
+                        Donate Now
+                    </Link>
                 </div>
-                <div className={`${styles.item} ${styles.bg_purple}`}>
-                    <h2>Receive Blood</h2>
-                    <p>
-                        🩸 Need blood? We&apos;re here, day and night, to support you! 🌟 Our doors are open 24/7, and we&apos;re just a call away. Whether it&apos;s an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood. Your well-being is our top priority, and we&apos;re dedicated to providing the help you need, whenever you need it. Reach out to us anytime, and let&apos;s ensure your health is in good hands! 🤝🏥
+                <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-500 to-indigo-800 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
+                    <h2 className="text-white text-2xl font-bold mb-4 relative">Receive Blood</h2>
+                    <p className="text-white/90 leading-relaxed mb-6 relative">
+                        Need blood? We&apos;re here, day and night, to support you! Our doors are open 24/7, and we&apos;re just a call away. Whether it&apos;s an emergency or a planned procedure, you can count on us.
                     </p>
-                    <div className={styles.button_holder}>
-                        <Link href="/request">Receive Now</Link>
-                    </div>
+                    <Link href="/request" className="relative inline-block bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white font-semibold px-8 py-3 rounded-full transition-all duration-200 no-underline border border-white/20">
+                        Receive Now
+                    </Link>
                 </div>
             </div>
 
-            <div className={styles.category}>
-                <div className={`${styles.item} ${styles.bg_yellow}`}>
-                    <h2>Contact Us</h2>
-                    <p>
-                        🤝 Need a helping hand? We&apos;ve got you covered! 🌟 Whether it&apos;s a question, a concern, or a friendly chat, don&apos;t hesitate to reach out to us. Our team is here and eager to assist you. Together, we can overcome any obstacle and find the perfect solution tailored to your needs. So, drop us a message or give us a call, and let&apos;s embark on this journey together! 
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+                <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
+                    <h2 className="text-white text-2xl font-bold mb-4 relative">Contact Us</h2>
+                    <p className="text-white/90 leading-relaxed mb-6 relative">
+                        Need a helping hand? We&apos;ve got you covered! Whether it&apos;s a question, a concern, or a friendly chat, don&apos;t hesitate to reach out. Our team is here and eager to assist you.
                     </p>
-                    <div className={styles.button_holder}>
-                        <Link href="/contact">Contact Us</Link>
-                    </div>
+                    <Link href="/contact" className="relative inline-block bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white font-semibold px-8 py-3 rounded-full transition-all duration-200 no-underline border border-white/20">
+                        Contact Us
+                    </Link>
                 </div>
-                <div className={`${styles.item} ${styles.bg_blue}`}>
-                    <h2>Join Us</h2>
-                    <p>
-                        Want to be part of an amazing organization that saves lives with every heartbeat? Join Sandhani, where students like you come together to collect the gift of life: blood! 🎈🩸 Spread smiles, share compassion, and make a difference in the lives of those in need. Together, we&apos;ll pump joy into the world by giving back and making every drop count. Be a lifesaver, join Sandhani, and let&apos;s create a happier, healthier tomorrow! 
+                <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-500 to-blue-700 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
+                    <h2 className="text-white text-2xl font-bold mb-4 relative">Join Us</h2>
+                    <p className="text-white/90 leading-relaxed mb-6 relative">
+                        Want to be part of an amazing organization that saves lives with every heartbeat? Join Sandhani, where students like you come together to collect the gift of life!
                     </p>
-                    <div className={styles.button_holder}>
-                        <Link href="/membership">Become a Member</Link>
-                    </div>
+                    <Link href="/membership" className="relative inline-block bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white font-semibold px-8 py-3 rounded-full transition-all duration-200 no-underline border border-white/20">
+                        Become a Member
+                    </Link>
                 </div>
             </div>
 
-
-            <div className={styles.category}>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <Image src={ImageCR} alt="picture of central comittee representative" />
-                    <h2>লাজিম ইমাম চৌধুরী</h2>
-                    <p>Central Comittee Rep.</p>
-                    <br />
-                    <p>Be a lifeline, donate blood; your small act, their second chance.</p>
-                </div>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <Image src={ImagePR} alt="picture of president" />
-                    <h2>শাদমান কাদির</h2>
-                    <p>President</p>
-                    <br />
-                    <p>Share the gift of life, donate blood, and inspire a chain of kindness. Be a hero. Donate today!</p>
-                </div>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <Image src={ImageVP} alt="picture of vice president" />
-                    <h2>ছাদেকুল ইসলাম স্বজন</h2>
-                    <p>Vice President</p>
-                    <br />
-                    <p>Give life, give love. Donate blood today. Your precious gift saves lives.</p>
-                </div>
-                <div className={`${styles.panel} ${styles.bg_gray}`}>
-                    <Image src={ImageSR} alt="picture of general secretary" />
-                    <h2>শাহরিয়ার হাসান আসিফ</h2>
-                    <p>General Secretary</p>
-                    <br />
-                    <p>Be a lifeline: Donate blood, ignite hope, save lives.</p>
+            {/* Panel Members */}
+            <div className="mb-16">
+                <h2 className="text-white text-2xl md:text-3xl font-bold text-center mb-10">Our Leadership</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {[
+                        { img: ImageCR, name: "লাজিম ইমাম চৌধুরী", title: "Central Committee Rep.", quote: "Be a lifeline, donate blood; your small act, their second chance." },
+                        { img: ImagePR, name: "শাদমান কাদির", title: "President", quote: "Share the gift of life, donate blood, and inspire a chain of kindness. Be a hero." },
+                        { img: ImageVP, name: "ছাদেকুল ইসলাম স্বজন", title: "Vice President", quote: "Give life, give love. Donate blood today. Your precious gift saves lives." },
+                        { img: ImageSR, name: "শাহরিয়ার হাসান আসিফ", title: "General Secretary", quote: "Be a lifeline: Donate blood, ignite hope, save lives." },
+                    ].map((member, idx) => (
+                        <div key={idx} className="group bg-neutral-800/60 backdrop-blur-sm rounded-2xl border border-white/5 p-6 text-center hover:border-white/10 transition-all duration-300 hover:-translate-y-1">
+                            <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-2 ring-white/10 group-hover:ring-red-400/30 transition-all">
+                                <Image src={member.img} alt={member.title} className="w-full h-full object-cover" />
+                            </div>
+                            <h3 className="text-white font-semibold text-base mb-1">{member.name}</h3>
+                            <p className="text-red-400/80 text-sm font-medium mb-3">{member.title}</p>
+                            <p className="text-white/50 text-sm italic leading-relaxed">&ldquo;{member.quote}&rdquo;</p>
+                        </div>
+                    ))}
                 </div>
             </div>
 
-            <div className={styles.category}>
+            {/* Ad */}
+            <div className="mb-12">
                 <ReactAdsense 
                     client={'ca-pub-9901731849909509'}
                     slot={'7369293591'}
@@ -164,9 +162,10 @@ const HomePage = () => {
                 />
             </div>
             
-            <div className={styles.category}>
+            {/* Map */}
+            <div className="rounded-2xl overflow-hidden border border-white/5">
                 <iframe 
-                    className={styles.map}
+                    className="w-full h-[400px] md:h-[500px] border-0"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6141.811254317321!2d90.37159805896201!3d23.749418326539278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bfc2c95b283f%3A0x535a457573961885!2sSandhani%20Bangladesh%20Medical%20College%20Unit!5e0!3m2!1sen!2sbd!4v1692199261476!5m2!1sen!2sbd" 
                     allowFullScreen={true} 
                     loading="lazy" 

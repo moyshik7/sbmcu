@@ -1,23 +1,31 @@
 import Head from 'next/head';
-import styles from '@/styles/request.module.css'
 import Navbar from "@/components/navbar"
 import Script from 'next/script'
 import FooterItem from '@/components/footer';
 
+const bloodGroups = [
+    { type: "A+", typeBn: "এ পজেটিভ", available: 0, donors: 62, color: "from-red-500 to-red-700" },
+    { type: "A-", typeBn: "এ নেগেটিভ", available: 0, donors: 5, color: "from-indigo-500 to-indigo-700" },
+    { type: "B+", typeBn: "বি পজেটিভ", available: 0, donors: 38, color: "from-emerald-500 to-emerald-700" },
+    { type: "B-", typeBn: "বি নেগেটিভ", available: 0, donors: 8, color: "from-amber-600 to-amber-800" },
+    { type: "O+", typeBn: "ও পজেটিভ", available: 0, donors: 77, color: "from-orange-500 to-orange-700" },
+    { type: "O-", typeBn: "ও নেগেটিভ", available: 0, donors: 4, color: "from-teal-500 to-teal-700" },
+    { type: "AB+", typeBn: "এবি পজেটিভ", available: 0, donors: 35, color: "from-yellow-500 to-yellow-700" },
+    { type: "AB-", typeBn: "এবি নেগেটিভ", available: 0, donors: 2, color: "from-blue-500 to-blue-700" },
+];
 
-const HomePage = () => {
+const RequestPage = () => {
     return (
-    <div className={styles.main}>
+    <div className="min-h-screen bg-neutral-900">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-BZ71381ERP" strategy="afterInteractive" />
-      	<Script id="google-analytics" strategy="afterInteractive">
-        	{`
-          		window.dataLayer = window.dataLayer || [];
-          		function gtag(){dataLayer.push(arguments);}
-          		gtag('js', new Date());
- 
-          		gtag('config', 'G-BZ71381ERP');
-        	`}
-      	</Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+            {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-BZ71381ERP');
+            `}
+        </Script>
         <Head>
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
@@ -35,167 +43,54 @@ const HomePage = () => {
             <link rel="manifest" href="/manifest.json"/>
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
-
             <meta name="theme-color" content="#ff6f61"/>
             <meta name='keywords' content="Blood bank, Blood Bank in Bangladesh, Blood bank Near Me, Shandhani Bangladesh Medical College"/>
-            <meta name='description' content="Need blood? We're here, day and night, to support you! Our doors are open 24/7, and we're just a call away. Whether it's an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood"/>
+            <meta name='description' content="Need blood? We're here, day and night, to support you! Our doors are open 24/7, and we're just a call away."/>
             <meta name='subject' content="Blood Donation Free"/>
             <meta name='copyright' content="Sandhani Bangladesh Medical College Unit"/>
             <meta name='language' content='EN'/>
             <meta name='robots' content='index,follow'/>
             <meta property="og:title" content="Blood Stock and Donors - Sandhani" />
-            <meta property="og:description" content="Need blood? We're here, day and night, to support you! Our doors are open 24/7, and we're just a call away. Whether it's an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood" />
-            <meta property="og:url" content="https://sbmcu.com/membership" />
+            <meta property="og:description" content="Need blood? We're here, day and night, to support you! Our doors are open 24/7." />
+            <meta property="og:url" content="https://sbmcu.com/request" />
             <meta property="og:image" content="https://sbmcu.com/slide/slide_2.webp" />
             <meta property="og:site_name" content="Sandhani Bangladesh Medical College Unit" />
             <meta name="twitter:title" content="Blood Stock and Donors - Sandhani" />
-            <meta name="twitter:description" content="Need blood? We're here, day and night, to support you! Our doors are open 24/7, and we're just a call away. Whether it's an emergency or a planned procedure, you can count on us for a timely and reliable supply of life-saving blood" />
+            <meta name="twitter:description" content="Need blood? We're here, day and night, to support you! Our doors are open 24/7." />
             <meta name="twitter:image" content="https://sbmcu.com/slide/slide_2.webp" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:image:alt" content="Sandhani Bangladesh Medical College Unit Cover Photo"/>
             <meta name="twitter:site" content="@s_bmcu" />
-            
             <title>Blood Stock and Donors - Sandhani</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <div className={styles.spacer}></div>
-
+        <div className="h-16" />
         <Navbar />
 
-        <main className={styles.content}>
-
-            <div className={styles.category}>
-                <div className={`${styles.item} ${styles.bg_red}`}>
-                    <h2>A (+ve)</h2>
-                    <p>Available: 0<br/>Regular Donors: 62</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_purple}`}>
-                    <h2>A (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 05</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-
-                <div className={`${styles.item} ${styles.bg_green}`}>
-                    <h2>B (+ve)</h2>
-                    <p>Available: 0<br/>Regular Donors: 38</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_brown}`}>
-                    <h2>B (-ve)</h2>
-                    <p>Available: 00<br/>Regular Donors: 08</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
+        <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+            <div className="text-center mb-12">
+                <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">Blood Stock & Donors</h1>
+                <p className="text-white/50 max-w-xl mx-auto">Need blood? We&apos;re available 24/7. Call us for any blood type.</p>
             </div>
 
-            <div className={styles.category}>
-                <div className={`${styles.item} ${styles.bg_orange}`}>
-                    <h2>O (+ve)</h2>
-                    <p>Available: 0<br/>Regular Donors: 77</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                {bloodGroups.map((group) => (
+                    <div key={group.type} className={`relative overflow-hidden rounded-2xl bg-gradient-to-br ${group.color} p-6 text-center group hover:-translate-y-1 transition-transform duration-300`}>
+                        <h2 className="text-white text-3xl md:text-4xl font-bold mb-1">{group.type}</h2>
+                        <p className="text-white/60 text-xs mb-4" lang="bn">{group.typeBn}</p>
+                        <div className="space-y-1 mb-5">
+                            <p className="text-white/80 text-sm">Available: <span className="font-semibold text-white">{group.available}</span></p>
+                            <p className="text-white/80 text-sm">Donors: <span className="font-semibold text-white">{group.donors}</span></p>
+                        </div>
+                        <a 
+                            href="tel:+8801716858723" 
+                            className="inline-block bg-white/20 hover:bg-white/30 text-white text-sm font-semibold px-6 py-2.5 rounded-full transition-all duration-200 no-underline border border-white/20"
+                        >
+                            Call Now
+                        </a>
                     </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_paste}`}>
-                    <h2>O (-ve)</h2>
-                    <p>Available: 0<br/>Regular Donors: 04</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-
-                <div className={`${styles.item} ${styles.bg_yellow}`}>
-                    <h2>AB (+ve)</h2>
-                    <p>Available: 0<br/>Regular Donors: 35</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_blue}`}>
-                    <h2>AB (-ve)</h2>
-                    <p>Available: 0<br/>Regular Donors: 02</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            {/* Bengali */}
-            <div className={styles.category}>
-                <div className={`${styles.item} ${styles.bg_red}`}>
-                    <h2>এ পজেটিভ</h2>
-                    <p>প্রাপ্তিসাধ্য: 0<br/>নিয়মিত দাতা: 62</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_purple}`}>
-                    <h2>এ নেগেটিভ</h2>
-                    <p>প্রাপ্তিসাধ্য: 0<br/>নিয়মিত দাতা: 05</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-
-                <div className={`${styles.item} ${styles.bg_green}`}>
-                    <h2>বি পজেটিভ</h2>
-                    <p>প্রাপ্তিসাধ্য: 0<br/>নিয়মিত দাতা: 38</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_brown}`}>
-                    <h2>বি নেগেটিভ</h2>
-                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 08</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div className={styles.category}>
-                <div className={`${styles.item} ${styles.bg_orange}`}>
-                    <h2>ও পজেটিভ</h2>
-                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 77</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_paste}`}>
-                    <h2>ও নেগেটিভ</h2>
-                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 04</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-
-                <div className={`${styles.item} ${styles.bg_yellow}`}>
-                    <h2>এবি পজেটিভ</h2>
-                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 35</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
-                <div className={`${styles.item} ${styles.bg_blue}`}>
-                    <h2>এবি নেগেটিভ</h2>
-                    <p>প্রাপ্তিসাধ্য: 00<br/>নিয়মিত দাতা: 02</p>
-                    <div className={styles.button_holder}>
-                        <a href="tel:+8801716858723">Call Now</a>
-                    </div>
-                </div>
+                ))}
             </div>
         </main>
   
@@ -203,4 +98,4 @@ const HomePage = () => {
     </div>);
 };
   
-export default HomePage;
+export default RequestPage;

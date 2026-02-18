@@ -1,24 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Mono:wght@300&family=Ysabeau+Infant:wght@300&display=swap');
-/*
-font-family: 'Inter', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Ysabeau Infant', sans-serif;
-*/
-body {
-    margin: 0;
-}
+@import "tailwindcss";
 
-* {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
+
+@layer base {
+  body {
+    @apply m-0 bg-neutral-900 text-white antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  * {
+    @apply m-0 p-0 outline-none box-border;
     font-family: 'Inter', sans-serif;
     -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     font-display: swap;
+  }
 }
