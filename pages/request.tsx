@@ -76,7 +76,7 @@ const RequestPage = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
                 {bloodGroups.map((group) => (
-                    <div key={group.type} className={`relative overflow-hidden rounded-2xl bg-gradient-to-br ${group.color} p-6 text-center group hover:-translate-y-1 transition-transform duration-300`}>
+                    <div key={group.type} className={`relative overflow-hidden rounded-2xl bg-linear-to-br ${group.color} p-6 text-center group hover:-translate-y-1 transition-transform duration-300`}>
                         <h2 className="text-white text-3xl md:text-4xl font-bold mb-1">{group.type}</h2>
                         <p className="text-white/60 text-xs mb-4" lang="bn">{group.typeBn}</p>
                         <div className="space-y-1 mb-5">

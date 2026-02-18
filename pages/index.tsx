@@ -85,7 +85,7 @@ const HomePage = () => {
 
             {/* Action Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-                <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-red-500 to-red-700 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
+                <div className="group relative overflow-hidden rounded-2xl bg-linear-to-br from-red-500 to-red-700 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
                     <h2 className="text-white text-2xl font-bold mb-4 relative">Donate Blood</h2>
                     <p className="text-white/90 leading-relaxed mb-6 relative">
@@ -95,7 +95,7 @@ const HomePage = () => {
                         Donate Now
                     </Link>
                 </div>
-                <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-500 to-indigo-800 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
+                <div className="group relative overflow-hidden rounded-2xl bg-linear-to-br from-indigo-500 to-indigo-800 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
                     <h2 className="text-white text-2xl font-bold mb-4 relative">Receive Blood</h2>
                     <p className="text-white/90 leading-relaxed mb-6 relative">
@@ -108,7 +108,7 @@ const HomePage = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-                <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
+                <div className="group relative overflow-hidden rounded-2xl bg-linear-to-br from-amber-500 to-orange-600 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
                     <h2 className="text-white text-2xl font-bold mb-4 relative">Contact Us</h2>
                     <p className="text-white/90 leading-relaxed mb-6 relative">
@@ -118,7 +118,7 @@ const HomePage = () => {
                         Contact Us
                     </Link>
                 </div>
-                <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-500 to-blue-700 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
+                <div className="group relative overflow-hidden rounded-2xl bg-linear-to-br from-blue-500 to-blue-700 p-8 md:p-10 transition-transform duration-300 hover:-translate-y-1">
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors" />
                     <h2 className="text-white text-2xl font-bold mb-4 relative">Join Us</h2>
                     <p className="text-white/90 leading-relaxed mb-6 relative">
@@ -165,7 +165,7 @@ const HomePage = () => {
             {/* Map */}
             <div className="rounded-2xl overflow-hidden border border-white/5">
                 <iframe 
-                    className="w-full h-[400px] md:h-[500px] border-0"
+                    className="w-full h-100 md:h-125 border-0"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6141.811254317321!2d90.37159805896201!3d23.749418326539278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bfc2c95b283f%3A0x535a457573961885!2sSandhani%20Bangladesh%20Medical%20College%20Unit!5e0!3m2!1sen!2sbd!4v1692199261476!5m2!1sen!2sbd" 
                     allowFullScreen={true} 
                     loading="lazy" 
